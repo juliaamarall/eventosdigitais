@@ -1,0 +1,68 @@
+/* estilização para o footer da página index */
+footer{
+    margin-top: 10vh;
+}
+
+.none{
+    margin-top: 1.5em;
+}
+/* estilização para o menu da página do curso  */
+ul li.menu a {
+    height: 3em;
+    width: 100%;
+}
+
+.menulateral:hover {
+    width: 280px;
+    z-index: 6;
+}
+
+/* estilização para o texto ficar interativo com a abertura do menu */
+.menulateral:hover~.all-conteudo {
+    margin-left: 100px;
+}
+
+/* estilização para textos que não ficaram alinhados na esquerda */
+.text-left{
+    text-align: left;
+}
+
+/* estilização para ul que precisam de decoração */
+.text-dec > li{
+    list-style: disc;
+
+}
+
+/* CAIXA CURIOSIDADES */
+.accordion #content .caixaprincipal#titulocuriosidade {
+    background-color: #A042E5;
+    /*cor da caixa principal curiosidade*/
+    color: #fffffff6;
+    /*cor da palavra na caixa principal*/
+}
+
+ #curiosidades {
+    background-color:#c082ec94 ;
+    /*cor da caixa secundaria curiosidade */
+}
+/* FIM DO ESTILO DA CAIXA CURIOSIDADES */
+
+/* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
+.accordion-body {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    margin-left: 5px;
+    border: none;
+}
+
+/* ESTILIZAÇÃO PARA O LINK EXTERNO PARA O BLOCO 02 DO SEGUNDO TÓPICO */
+/* colocando um background green em um alert especifico */
+#back-green{
+   background-color: rgb(25, 135, 84);
+}
+.link-externo{
+    text-decoration: none;
+    color: white;
+}
