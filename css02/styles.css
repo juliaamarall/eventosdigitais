@@ -66,3 +66,21 @@ ul li.menu a {
     text-decoration: none;
     color: white;
 }
+
+/* ESTILIZAÇÃO DA TABLE TH */
+th{
+    font-weight: lighter;
+    wi
+}
+
+@media (max-width: 767px) {
+    thead{
+        display: none;
+    }
+
+    td{
+        display: block !important;
+    }
+    
+}
+

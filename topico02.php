@@ -1,186 +1,186 @@
 <?php
-include('layout/header.php');
+include( 'layout/header.php' );
 ?>
 
 <body>
 
-    <!-- NAV  -->
-    <?php
-    include('layout/nav.php');
-    ?>
-    <!-- FIM DA NAV -->
+<!-- NAV  -->
+<?php
+include( 'layout/nav.php' );
+?>
+<!-- FIM DA NAV -->
 
+<!-- menu lateral começa aqui -->
+<?php
+include( 'layout/menu.php' );
+?>
 
-    <!-- menu lateral começa aqui -->
-    <?php
-    include('layout/menu.php');
-    ?>
+<!-- CONTEUDO INICIO -->
+<div class = 'all-conteudo'>
+<section class = 'conteiner-principal'>
+<div class = 'main-content container-fluid'>
+<div class = 'row'>
+<!-- Begin row -->
+<div class = 'col-md-1'></div>
+<div class = 'col-md-10 col-sm-8 container-fluid'>
 
-    <!-- CONTEUDO INICIO -->
-    <div class="all-conteudo">
-        <section class="conteiner-principal">
-            <div class="main-content container-fluid">
-                <div class="row">
-                    <!-- Begin row -->
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10 col-sm-8 container-fluid">
+<h2 class = 'Titulo fw-bolder'>Eventos Presenciais, Híbridos e Digitais como Ferramenta de Educação</h2>
+<!-- tirei o hr por que o menu não estava ficando sobreposto -->
+<!-- <hr> -->
 
-                        <h2 class="Titulo fw-bolder">Eventos Presenciais, Híbridos e Digitais como Ferramenta de Educação</h2>
-                        <!-- tirei o hr por que o menu não estava ficando sobreposto -->
-                        <!-- <hr> -->
+<div class = 'm-4'>
+<h3 class = 'Titulo fw-semibold'> 02 - Objetivos</h3>
+<p><i class = 'fa fa-dot-circle text-success'></i> Apresentar conceitos básicos e diferenças estratégicas e operacionais entre eventos presenciais, híbridos e digitais;
+</p>
+<p><i class = 'fa fa-dot-circle text-success'></i>  Contribuir com a formatação de novos projetos por meio de exemplos reais e fictícios de eventos digitais;
+</p>
+<p><i class = 'fa fa-dot-circle text-success'></i> Listar tipologias de eventos e apresentar ferramentas de inovação e criatividade para idealizar eventos digitais.</p>
+<br>
+</div>
 
-                        <div class="m-4">
-                            <h3 class="Titulo fw-semibold"> 02 - Objetivos</h3>
-                            <p><i class="fa fa-dot-circle text-success"></i> Apresentar conceitos básicos e diferenças estratégicas e operacionais entre eventos presenciais, híbridos e digitais;</p>
-                            <p><i class="fa fa-dot-circle text-success"></i>  Contribuir com a formatação de novos projetos por meio de exemplos reais e fictícios de eventos digitais;</p>
-                            <p><i class="fa fa-dot-circle text-success"></i> Listar tipologias de eventos e apresentar ferramentas de inovação e criatividade para idealizar eventos digitais.</p>
-                            <br>
-                        </div>
+<!-- primeiro bloco do tópico 02 ( RESUMO ) -->
 
-        
+<div class = 'mt-5'>
+<h3 class = 'fw-semibold text-secondary'>RESUMO</h3>
+<!-- accordions para a página do tópico 02 -->
+<div class = 'accordion' id = 'accordionExample'>
+<div class = 'accordion-item'>
+<h2 class = 'accordion-header'>
+<button class = 'accordion-button' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseOne' aria-expanded = 'true' aria-controls = 'collapseOne'>
+PRESENCIAL
+</button>
+</h2>
+<div id = 'collapseOne' class = 'accordion-collapse collapse show' data-bs-parent = '#accordionExample'>
+<div class = 'accordion-body'>
+<p>Eventos que acontecem com 100% das pessoas presentes no local do evento. Considere pessoas os participantes, os palestrantes, expositores e todos os envolvidos na execução do evento.</p>
+</div>
+</div>
+</div>
+<div class = 'accordion-item'>
+<h2 class = 'accordion-header'>
+<button class = 'accordion-button collapsed' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseTwo' aria-expanded = 'false' aria-controls = 'collapseTwo'>
+HIBRIDO
+</button>
+</h2>
+<div id = 'collapseTwo' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
+<div class = 'accordion-body'>
+<p>
+Eventos que acontecem parte presencialmente e parte virtualmente. Sejam com participantes a distância, seja com palestrantes a distância.
+</p>
+</div>
+</div>
+</div>
+<div class = 'accordion-item'>
+<h2 class = 'accordion-header'>
+<button class = 'accordion-button collapsed' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseThree' aria-expanded = 'false' aria-controls = 'collapseThree'>
+VIRTUAL
+</button>
+</h2>
+<div id = 'collapseThree' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
+<div class = 'accordion-body'>
+<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+</div>
+<hr>
+<!-- SEGUNDO BLOCO DO TÓPICO 02 -->
+<div class = 'mt-5'>
+<h3 class = 'fw-semibold text-secondary'>Eventos Presenciais não estão com os dias contatos.</h3>
 
-                          <!-- primeiro bloco do tópico 02 (RESUMO) -->
-            
-                          <div class="mt-5">
-                            <h3 class="fw-semibold text-secondary">RESUMO</h3>
-                                <!-- accordions para a página do tópico 02 -->
-                                <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                   PRESENCIAL
-                                </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <p>Eventos que acontecem com 100% das pessoas presentes no local do evento. Considere pessoas os participantes, os palestrantes, expositores e todos os envolvidos na execução do evento.</p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                   HIBRIDO
-                                </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                   <p>
-                                   Eventos que acontecem parte presencialmente e parte virtualmente. Sejam com participantes a distância, seja com palestrantes a distância.
-                                   </p>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    VIRTUAL
-                                </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            <hr>
-                            <!-- SEGUNDO BLOCO DO TÓPICO 02 -->
-                            <div class="mt-5">
-                            <h3 class="fw-semibold text-secondary">Eventos Presenciais não estão com os dias contatos.</h3>
-                            
-                            <p class="text-left">
-                            Vamos iniciar este tópico com um exercício mental. Faça uma rápida retrospectiva dos momentos mais importantes da sua vida. É bem provável que os eventos imediatamente apareçam na sua memória.
-                            </p>
+<p class = 'text-left'>
+Vamos iniciar este tópico com um exercício mental. Faça uma rápida retrospectiva dos momentos mais importantes da sua vida. É bem provável que os eventos imediatamente apareçam na sua memória.
+</p>
 
-                            <p class="text-left">
-                            Essa atividade ancestral faz parte da vida pessoal e sempre fará parte do<strong> itinerário de estudantes, profissionais e cientistas</strong>. Os eventos funcionam como uma grande ferramenta informativa, questionadora, dialética, expositiva, competitiva, deliberativa e instrutiva.
-                            </p>
+<p class = 'text-left'>
+Essa atividade ancestral faz parte da vida pessoal e sempre fará parte do<strong> itinerário de estudantes, profissionais e cientistas</strong>. Os eventos funcionam como uma grande ferramenta informativa, questionadora, dialética, expositiva, competitiva, deliberativa e instrutiva.
+</p>
 
-                            <p class="text-left">
-                            Posteriormente vamos detalhar mais sobre os tipos de eventos, classificações e demais “peças” que compõem o evento. <strong>É importante criar o evento antes de planejar e planejar antes de executar</strong>.
-                            </p>
+<p class = 'text-left'>
+Posteriormente vamos detalhar mais sobre os tipos de eventos, classificações e demais “peças” que compõem o evento. <strong>É importante criar o evento antes de planejar e planejar antes de executar</strong>.
+</p>
 
-                            <p class="text-left">
-                            Criar é inventar, ter ideias, imaginar a realidade antes mesmo de elaborar uma lista de tarefas.
-                            </p>
+<p class = 'text-left'>
+Criar é inventar, ter ideias, imaginar a realidade antes mesmo de elaborar uma lista de tarefas.
+</p>
 
-                            <p class="text-left">
-                            É comum relacionar a organização de eventos com muitas listas de tarefas e a corrida operacional contra o tempo, mas antes de colocar a mão na massa é preciso focar energia na fase de criação ou ideação.
-                            </p>
-                        </div>
-                                 <!-- Citação com borda verde (esquerda) -->
-                        <div class="bd-callout bd-callout-success m-3">
+<p class = 'text-left'>
+É comum relacionar a organização de eventos com muitas listas de tarefas e a corrida operacional contra o tempo, mas antes de colocar a mão na massa é preciso focar energia na fase de criação ou ideação.
+</p>
+</div>
+<!-- Citação com borda verde ( esquerda ) -->
+<div class = 'bd-callout bd-callout-success m-3'>
 
-                        <!-- blockquote do bootstrap -->
-                        <figure>
-                        <blockquote class="blockquote">
-                            <p>Pressupomos o trabalho sob forma exclusivamente humana. Uma aranha executa operações semelhantes às do tecelão, e a abelha supera mais de um arquiteto ao construir sua colméia. Mas o que distingue o pior arquiteto da melhor abelha é que ele figura na mente sua construção antes de transformá-la em realidade. No fim do processo do trabalho aparece um resultado que já existia antes idealmente na imaginação do trabalhador. Ele não transforma apenas o material sobre o qual opera; ele imprime ao material o projeto que tinha conscientemente em mira, o qual constitui a lei determinante do seu modo de operar e ao qual tem de subordinar sua vontade.</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            <cite title="Source Title">BIANCHETTI 2001, p.25 apud (MARX 1987, p. 202)</cite>
-                        </figcaption>
-                        </figure>
-                        </div>
-                        <hr>
-                        <!-- Citação com borda verde (esquerda) --> 
-                            <p class="text-left">
-                            <strong>A fase de criação deve ser preferencialmente separada da execução</strong>, pois assim você será capaz de gerir e validar melhor o projeto. Em breve, você aprenderá mais sobre como criar projetos de eventos digitais.
-                            </p>
-                            <p class="text-left">
-                            Cada fase é fundamental e necessária para que o evento se torne uma <strong>ferramenta efetiva de educação</strong>.
-                            </p>
+<!-- blockquote do bootstrap -->
+<figure>
+<blockquote class = 'blockquote'>
+<p>Pressupomos o trabalho sob forma exclusivamente humana. Uma aranha executa operações semelhantes às do tecelão, e a abelha supera mais de um arquiteto ao construir sua colméia. Mas o que distingue o pior arquiteto da melhor abelha é que ele figura na mente sua construção antes de transformá-la em realidade. No fim do processo do trabalho aparece um resultado que já existia antes idealmente na imaginação do trabalhador. Ele não transforma apenas o material sobre o qual opera;
+ele imprime ao material o projeto que tinha conscientemente em mira, o qual constitui a lei determinante do seu modo de operar e ao qual tem de subordinar sua vontade.</p>
+</blockquote>
+<figcaption class = 'blockquote-footer'>
+<cite title = 'Source Title'>BIANCHETTI 2001, p.25 apud ( MARX 1987, p. 202 )</cite>
+</figcaption>
+</figure>
+</div>
+<hr>
+<!-- Citação com borda verde ( esquerda ) -->
+<p class = 'text-left'>
+<strong>A fase de criação deve ser preferencialmente separada da execução</strong>, pois assim você será capaz de gerir e validar melhor o projeto. Em breve, você aprenderá mais sobre como criar projetos de eventos digitais.
+</p>
+<p class = 'text-left'>
+Cada fase é fundamental e necessária para que o evento se torne uma <strong>ferramenta efetiva de educação</strong>.
+</p>
 
-                            <div class="text-center img-01">
-                            <div class="zoom">
-                                <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                                    <img src="imgs/Figura05.png" alt="Imagem que remete a organização" id="img-1">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>https://cdn.pixabay.com/photo/2020/06/17/10/09/convention-5308938_960_720.jpg</p>
-                
-                            <hr>
+<div class = 'text-center img-01'>
+<div class = 'zoom'>
+<a href = 'imagens/Figura01.png' data-bs-toggle = 'modal' data-bs-target = '#Imagem01'>
+<img src = 'imgs/Figura05.png' alt = 'Imagem que remete a organização' id = 'img-1'>
+</a>
+</div>
+<p class = 'FonteFigura FonteMenor text-secondary'><strong>Fonte:</strong>https://cdn.pixabay.com/photo/2020/06/17/10/09/convention-5308938_960_720.jpg</p>
 
-                            <div class="text-center img-01">
-                            <div class="zoom">
-                                <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                                    <img src="imgs/Figura06.png" alt="Imagem que remete a organização" id="img-1">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>https://cdn.pixabay.com/photo/2014/12/18/22/39/auditorium-572776_960_720.jpg</p>
-                
-                            <hr>
-                            <p class="text-left">Paralelamente à pandemia, percebe-se a articulação de empresas organizadoras e entidades para <strong>“digitalizar” os eventos técnicos e científico (educacionais) em caráter de urgência</strong>.</p>
-                            
-                        </div>
-                        </div>
-                      <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
-                            <div class="accordion ">
-                            <section id="content">
-                                <div class="caixaprincipal" id="tituloSaibaMais">
-                                <div class="div_teste">
-                                    <div><i class="fa-solid fa-plus"></i> DA UNIVERSIDADE PARA O MUNDO</div>
+<hr>
 
-                                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                </div>
-                                </div> <!--caixa Principal-->
-                                <div class="accordion-content" id="saibamais">
-                                <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
-                                    </strong></strong></p>
-                                <p class="txt-caixasecundaria">
-                                A Universidade Federal do Ceará (UFC) teve que adaptar os Encontros Universitários, o maior evento em âmbito acadêmico, para formato remoto este ano. O Encontros tiveram um sucesso incrível, com salas virtuais lotadas logo no primeiro dia, <span class="text-primary">o que garantiu o digital para as outras edições</span>. Este modelo possibilitou que estudantes e acadêmicos pudessem apresentar trabalhos e expandir o conteúdo universitário para foras dos muros da UFC.
-                                </p><!--caixa secundaria-->
-                                </div>
-                            </section>
-                        </section>
-                        <!-- FIM DA CAIXA SAIBA MAIS  -->
-                        <div>
-                            <p>A aparente disrupção dos eventos é um caminho sem volta, mas as iniciativas digitais não substituirão os tradicionais cursos, simpósios, conferências e congressos presenciais.</p>
+<div class = 'text-center img-01'>
+<div class = 'zoom'>
+<a href = 'imagens/Figura01.png' data-bs-toggle = 'modal' data-bs-target = '#Imagem01'>
+<img src = 'imgs/Figura06.png' alt = 'Imagem que remete a organização' id = 'img-1'>
+</a>
+</div>
+<p class = 'FonteFigura FonteMenor text-secondary'><strong>Fonte:</strong>https://cdn.pixabay.com/photo/2014/12/18/22/39/auditorium-572776_960_720.jpg</p>
 
-                            <p>Não existe evento sem experiência. Basicamente um evento é uma experiência planejada e coletiva com um objetivo específico. Essa premissa elucida que a experiência digital e a presencial são diferentes e complementares, mas nunca iguais ou concorrentes.</p>
+<hr>
+<p class = 'text-left'>Paralelamente à pandemia, percebe-se a articulação de empresas organizadoras e entidades para <strong>“digitalizar” os eventos técnicos e científico ( educacionais ) em caráter de urgência</strong>.</p>
 
-                            <p>Um exemplo curioso foi apresentado na série fictícia Grey's Anatomy, <span class="fst-italic">"Os médicos comparam a experiência de uma conferência médica como um acampamento de verão para cirurgiões, uma experiência única de rever pessoas que pensam e agem como você e que possui objetivos em comum..."</span></p>
+</div>
+</div>
+<!-- CAIXA DE TEXTO SAIBA-MAIS -->
+<section class = 'container'>
+<div class = 'accordion '>
+<section id = 'content'>
+<div class = 'caixaprincipal' id = 'tituloSaibaMais'>
+<div class = 'div_teste'>
+<div><i class = 'fa-solid fa-plus'></i> DA UNIVERSIDADE PARA O MUNDO</div>
+
+<i id = 'icon-pointer' class = 'fa-regular fa-hand-pointer fa-beat'></i>
+</div>
+</div> <!--caixa Principal-->
+<div class = 'accordion-content' id = 'saibamais'>
+<p class = 'txt-aviso'><strong class = 'opacity-75'><strong class = 'opacity-75'> Passe o mouse acima
+</strong></strong></p>
+<p class = 'txt-caixasecundaria'>
+A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universitários, o maior evento em âmbito acadêmico, para formato remoto este ano. O Encontros tiveram um sucesso incrível, com salas virtuais lotadas logo no primeiro dia, <span class = 'text-primary'>o que garantiu o digital para as outras edições</span>. Este modelo possibilitou que estudantes e acadêmicos pudessem apresentar trabalhos e expandir o conteúdo universitário para foras dos muros da UFC.
+</p><!--caixa secundaria-->
+</div>
+</section>
+</section>
+<!-- FIM DA CAIXA SAIBA MAIS  -->
+<div>
+<p>A aparente disrupção dos eventos é um caminho sem volta, mas as iniciativas digitais não substituirão os tradicionais cursos, simpósios, conferências e congressos presenciais.</p>
+
+<p>Não existe evento sem experiência. Basicamente um evento é uma experiência planejada e coletiva com um objetivo específico. Essa premissa elucida que a experiência digital e a presencial são diferentes e complementares, mas nunca iguais ou concorrentes.</p>
+
+<p>Um exemplo curioso foi apresentado na série fictícia Grey's Anatomy, <span class="fst-italic">"Os médicos comparam a experiência de uma conferência médica como um acampamento de verão para cirurgiões, uma experiência única de rever pessoas que pensam e agem como você e que possui objetivos em comum..."</span></p>
                         </div>
 
                           <!-- FIGURA 07 - MODAL-->
@@ -398,106 +398,125 @@ include('layout/header.php');
                             <div class="text-left">
                                 <p>O rico comparativo entre as categorias de eventos apresentados no ebook apresenta as <strong>diferentes dinâmicas entre os eventos presenciais, híbridos e 100% virtuais</strong>. Os itens em azul devem ser lidos com atenção, pois serão comentados na sequência.</p>
                             </div>
-                            <!-- TABELA DO TÓPICO 02 -->
-                            <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                
-                                <th scope="col">Aspectos</th>
-                                <th scope="col">Presencial</th>
-                                <th scope="col">Híbrido</th>
-                                <th scope="col">Virtual</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                               
-                                <td>Fator de atração</td>
-                                <td>Atraem público para um único local e para o networking.</td>
-                                <td>Também converge todos para um mesmo local. No virtual, a atração principal é o conteúdo e a dinâmica dos encontros presenciais.</td>
-                                <td>O que atrai é o conteúdo e a facilidade de acesso. Flexibilidade de tempo. Não há necessidade de deslocamento.</td>
-                                </tr>
+                            <!-- TABELA DO TÓPICO 02 --> 
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Aspectos</th>
+                                                    <th scope="col">Presencial</th>
+                                                    <th scope="col">Híbrido</th>
+                                                    <th scope="col">Virtual</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="tBody">
+                                                <tr>
+                                                 <td data-th="Aspectos">Fator de atração</td>
+                                                    <td data-th="Presencial">Atraem público para um único local e para o networking. </td>
+                                        AspectosAspectos            <td data-th="">Também converge todos para um mesmo local. No virtual, a atração principal é o conteúdo e a dinâmica dos encontros presenciais. </td>
+                                                    <td data-th="">O que atrai é o conteúdo e a facilidade de acesso. Flexibilidade de tempo. Não há necessidade de deslocamento. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Conteúdo</td>
+                                                    <td data-th="Presencial">Conteúdo direcionado e dinâmicas de interação presencial que reforçam sua retenção. Conteúdos com maior profundidade.</td>
+                                                    <td data-th="">O conteúdo do híbrido deve ser mais rico que o presencial para motivar a participação Os participantes do híbrido podem não ter acesso a todos os conteúdos do evento.</td>
+                                                    <td>Conteúdos mais curtos e mais precisos.</th>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Tamanho do público</td>
+                                                    <td data-th="Presencial">Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
+                                                    <td class="text-primary" data-th="">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
+                                                    <td class="text-primary" data-th="">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Programação</td>
+                                                    <td data-th="Presencial">Oferece formato e programa variados, desde plenária, seminários, sessões simultâneas e paralelas.</td>
+                                                    <td data-th="">Programação mais complexa para criar que o presencial, uma vez que precisa atender, de forma integrada, os públicos diversos</td>
+                                                    <td data-th="">Programação mais flexível quanto aos dias e horários. Possibilidade de várias sessões paralelas com moderadores e públicos de tamanhos distintos.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sustentabilidade</td>
+                                                    <td>Maior uso de papel e geração de lixo. Maior emissão de CO2 per capita.</td>
+                                                    <td>Geração de resíduos sólidos e uso do papel proporcionalmente menor</td>
+                                                    <td class="text-primary">Sem uso de papel. Sem geração de resíduos sólidos.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Custo para desenvolvimento</td>
+                                                    <td data-th="Presencial">Demanda maior investimento</td>
+                                                    <td data-th="">Demanda maior investimento </td>
+                                                    <td data-th="">Demanda maior investimento nos primeiros eventos. tende a diminuir com o tempo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td  data-th="Aspectos">Custo para o participante </td>
+                                                    <td data-th="Presencial">Mais caro </td>
+                                                    <td data-th="">No presencial igual. No virtual, mais acessível que o presencial. </td>
+                                                    <td data-th="">Menor custo entre os modelos</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="AspectosAspectos">Estruturas de mobilidade </td>
+                                                    <td data-th="Presencial">Transporte, táxi, estacionamento, transporte público, Uber.</td>
+                                                    <td data-th="">Transporte, táxi, estacionamento, transporte público, Uber.</td>
+                                                    <td data-th="">Sem necessidade de mobilidade.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Necessidades de estruturas físicas </td>
+                                                    <td data-th="">Demanda local adequada, com estacionamento; próximo de transporte público; local com ar condicionado, mesas, cadeiras, projetores, cenografia etc.</td>
+                                                    <td data-th="">Idem para o evento presencial. Essencial alta qualidade de vídeo, áudio e conexão. </td>
+                                                    <td data-th="">Essencial alta qualidade de vídeo, áudio e conexão. Não demanda local específico.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Infraestrutura (banheiros, A&B, segurança, …)</td>
+                                                    <td data-th="">Necessidade de providências e cuidados para que os presentes se sintam bem, alimentados e confortáveis. </td>
+                                                    <td data-th="">Igual no presencial. Nenhuma necessidade de infraestrutura física no virtual.</td>
+                                                    <td data-th="">Nenhuma necessidade de infraestrutura física.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Networking (entre os participantes)</td>
+                                                    <td data-th="">Permite interação face a face.</td>
+                                                    <td data-th="">Permite interação face a face no presencial, mas existem barreiras a serem vencidas na interação entre os virtuais e os presenciais. </td>
+                                                    <td data-th="">Mais difícil e trabalhoso. Demanda de articulação e de tecnologias. O fato de não ter acontecido o encontro presencial faz com que as pessoas demorem a conectar umas com as outras. Em alguns públicos, acontece o contrário: o virtual as ajuda a se conectar mais rápido.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="Aspectos">Engajamento</td>
+                                                    <td data-th="">Permite atividades presenciais, mas também o uso da tecnologia. O engajamento se dá pela própria presencialidade.</td>
+                                                    <td data-th="">Requer mais criatividade e recursos de tecnologia que o presencial, principalmente para engajar os virtuais.</td>
+                                                    <td data-th="">Estratégias diferentes e novos métodos de engajamento são necessários, uma vez que as pessoas, nos canais virtuais só permanecem em eventos que realmente estão adicionando valor para sua trajetória profissional ou pessoal.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="">Investimento em tecnologia</td>
+                                                    <td data-th=""> class="text-primary">Médio</td>
+                                                    <td data-th=""> class="text-primary">Alto</td>
+                                                    <td data-th=""> class="text-primary">Alto</td>
+                                                </tr>
+                                                <tr>
+                                                    <td    data-th="">Dados e Analytics</td>
+                                                    <td   data-th="">Para a geração de dados e Analytics é necessário investimento em pesquisas de campo. É mais caro no médio e no longo prazos. </td>
+                                                    <td  data-th="">Melhor estrutura de dados. Fica mais barato no longo prazo.</td>
+                                                    <td  data-th="">Fortemente estruturado em dados. Muito barato nos médio e longo prazos. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="">Potencial de vendas</td>
+                                                    <td data-th="">Para expositores, o encontro presencial promove mais e melhores vendas.</td>
+                                                    <td  data-th="">Para expositores, o encontro presencial promove mais e melhores vendas que no virtual.</td>
+                                                    <td data-th="">O potencial de vendas fica razoavelmente prejudicado em detrimento da falta do encontro presencial. Showcases virtuais ajudam a diminuir esse problema, mas não se comparam com expositores presenciais.</td>
+                                                </tr>
 
-                                <tr>
-                                
-                                <td>Conteúdo</td>
-                                <td>Conteúdo direcionado e dinâmicas de interação presencial que reforçam sua retenção. Conteúdos com maior profundidade.</td>
-                                <td>O conteúdo do híbrido deve ser mais rico que o presencial para motivar a participação Os participantes do híbrido podem não ter acesso a todos os conteúdos do evento.</td>
-                                <td>Conteúdos mais curtos e mais precisos.</td>
-                                </tr>
-                                <tr>
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
+                                                <tr>
+                                                    <td data-th="">Feiras (potencial para expositores) </td>
+                                                <td>Cenário ideal para expositores.</td>
+                                                    <td data-th="">Cenário ideal para expositores do evento presencial </td>
+                                                    <td data-th="">É necessária a aplicação de novas tecnologias e métodos para a aproximação de um cenário aceitável. Em determinados eventos, a experiência virtual pode até suplantar o evento presencial, mas é necessário maior investimento em tecnologia.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td data-th="">Tempo para desenvolvimento</td>
+                                                    <td data-th=""> class="text-primary">De 1 a 6 meses</td>
+                                                    <td data-th=""> class="text-primary">De 1 a 6 meses</td>
+                                                    <td data-th=""> class="text-primary">De 1 a 2 meses</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    
+                                  
 
-                                <tr>
-                                
-                                <td>Programação</td>
-                                <td>Oferece formato e programa variados, desde plenária, seminários, sessões simultâneas e paralelas.</td>
-                                <td>Programação mais complexa para criar que o presencial, uma vez que precisa atender, de forma integrada, os públicos diversos</td>
-                                <td>Programação mais flexível quanto aos dias e horários. Possibilidade de várias sessões paralelas com moderadores e públicos de tamanhos distintos.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Sustentabilidade</td>
-                                <td>Maior uso de papel e geração de lixo. Maior emissão de CO2 per capita.</td>
-                                <td>Geração de resíduos sólidos e uso do papel proporcionalmente menor</td>
-                                <td class="text-primary">Sem uso de papel. Sem geração de resíduos sólidos.</td>
-                                </tr>
-
-
-                                <tr>
-                                
-                                <td></td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-
-                                <tr>
-                                
-                                <td>Tamanho do público</td>
-                                <td>Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                <td class="text-primary">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                <td class="text-primary">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
-                                </tr>
-                            </tbody>
-                            </table>
                             
 
 
@@ -524,7 +543,7 @@ include('layout/header.php');
     </div>
 
 <?php
-include('layout/footer.php');
+include('layout/footer.php' );
 ?>
 </body>
 
