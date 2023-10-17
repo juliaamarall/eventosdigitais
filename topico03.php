@@ -24,65 +24,29 @@ include( 'layout/menu.php' );
 <div class = 'col-md-1'></div>
 <div class = 'col-md-10 col-sm-8 container-fluid'>
 
-<h2 class = 'Titulo fw-bolder'>Eventos Presenciais, Híbridos e Digitais como Ferramenta de Educação</h2>
+<h2 class = 'Titulo fw-bolder'>Design e planejamento de eventos digitais</h2>
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
 <div class = 'm-4'>
-<h3 class = 'Titulo fw-semibold'> 02 - Objetivos</h3>
-<p><i class = 'fa fa-dot-circle text-success'></i> Apresentar conceitos básicos e diferenças estratégicas e operacionais entre eventos presenciais, híbridos e digitais;
+<h3 class = 'Titulo fw-semibold'> 03 - Objetivos</h3>
+<p><i class = 'fa fa-dot-circle text-success'></i>Apresentar elementos técnicos necessários para realização de eventos digitais;
 </p>
-<p><i class = 'fa fa-dot-circle text-success'></i>  Contribuir com a formatação de novos projetos por meio de exemplos reais e fictícios de eventos digitais;
+<p><i class = 'fa fa-dot-circle text-success'></i>
+Ilustrar a experiência de eventos digitais a partir de exemplos reais;
 </p>
-<p><i class = 'fa fa-dot-circle text-success'></i> Listar tipologias de eventos e apresentar ferramentas de inovação e criatividade para idealizar eventos digitais.</p>
+<p><i class = 'fa fa-dot-circle text-success'></i>  Listar possibilidades de eventos públicos com e sem processo licitatório.</p>
 <br>
 </div>
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
 
 <div class = 'mt-5'>
-<h3 class = 'fw-semibold text-secondary'>RESUMO</h3>
-<!-- accordions para a página do tópico 02 -->
-<div class = 'accordion' id = 'accordionExample'>
-<div class = 'accordion-item'>
-<h2 class = 'accordion-header'>
-<button class = 'accordion-button' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseOne' aria-expanded = 'true' aria-controls = 'collapseOne'>
-PRESENCIAL
-</button>
-</h2>
-<div id = 'collapseOne' class = 'accordion-collapse collapse show' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
-<p>Eventos que acontecem com 100% das pessoas presentes no local do evento. Considere pessoas os participantes, os palestrantes, expositores e todos os envolvidos na execução do evento.</p>
-</div>
-</div>
-</div>
-<div class = 'accordion-item'>
-<h2 class = 'accordion-header'>
-<button class = 'accordion-button collapsed' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseTwo' aria-expanded = 'false' aria-controls = 'collapseTwo'>
-HIBRIDO
-</button>
-</h2>
-<div id = 'collapseTwo' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
-<p>
-Eventos que acontecem parte presencialmente e parte virtualmente. Sejam com participantes a distância, seja com palestrantes a distância.
-</p>
-</div>
-</div>
-</div>
-<div class = 'accordion-item'>
-<h2 class = 'accordion-header'>
-<button class = 'accordion-button collapsed' type = 'button' data-bs-toggle = 'collapse' data-bs-target = '#collapseThree' aria-expanded = 'false' aria-controls = 'collapseThree'>
-VIRTUAL
-</button>
-</h2>
-<div id = 'collapseThree' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
-<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-</div>
-</div>
-</div>
-</div>
+<h3 class = 'fw-semibold text-secondary'>Formatos e vantagens no uso de plataformas</h3>
+<p>O tópico anterior apresentou um panorama dos eventos presenciais, híbridos e 100% digitais. Agora vamos falar sobre formatos e técnicas claras de produção.</p>
+<p>Como você pode observar, existem muitos níveis de eventos digitais. Alguns são simples e facilmente viabilizados com a ajuda de um <strong>
+ parceiro ou fornecedor que entenda de tecnologia e ajude na transmissão. </strong></p>
+<p>Atualmente, é possível realizar facilmente uma reunião virtual ou videoconferência. O Zoom é um exemplo dessas plataformas.</p>
 <hr>
 <!-- SEGUNDO BLOCO DO TÓPICO 02 -->
 <div class = 'mt-5'>

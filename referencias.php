@@ -74,7 +74,73 @@ include('layout/header.php');
                             <p class="Texto"><i class="bi bi-journals"></i>
                             <strong>Google Search Statistics</strong>. Internet Lives States, ano. Disponível em: https://www.internetlivestats.com /google-search-statistics/.
                             <p>
-                                
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REFERENCIAS TOPICO 02 -->
+                <div class="row">
+                    <!-- Begin row -->
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 col-sm-8 container-fluid">
+
+                        <div class="page-title">
+
+                            <h2 class="Titulo">REFERÊNCIAS TÓPICO 2</h2>
+
+                            <br>
+
+                            <p class="Texto"> <i class="bi bi-journals"></i> <strong>ZITTA</strong>, Carmem; Organização de Eventos: Da Ideia à Realidade. 5a Edição. Distrito Federal: Editora Senac, 5 de julho de 2018.</p>
+
+                            <p class="Texto"> <i class="bi bi-journals"></i><strong>MARX, Karl</strong> O Capital. Brasil: Editora Civilização Brasileira, 13 outubro 1998.</p>
+
+                            <p class="Texto"> <i class="bi bi-journals"></i>
+                            <strong>ED2020 </strong>
+                            Eventos Ditiais. Midia Code, 2020. Disponível em: https://mkt.midiacode.com /eventosdigitais.</p>
+
+                            <p class="Texto"> <i class="bi bi-journals"></i>
+                            <strong> BIANCHETTI</strong>, Lucídio. Um Olhar sobre a Diferença: Interação, trabalho e cidadania. 7° edição. São Paulo: Editora Papirus, 2006.
+                            </p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>LAÇOS</strong>
+                            . Instagram, 2020. Disponível em: https://www.instagram.com /lacosevento .
+                            </p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i> 
+                            <strong></strong>
+                            Projeto de professora da REME de Três Lagoas é apresentado em Programa global Encontro com Fátima Bernardes. Prefeitura Municipal de Três Lagoas, 2020. Disponível em: http://www.treslagoas.ms.gov.br /projeto-de-professora-da-reme-de-tres-lagoas -e-apresentado-em-programa-global-encontro -com-fatima-bernardes .
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>MARTIN</strong>
+                            , Vanessa. EVENTOS HÍBRIDOS E DIGITAIS: Você está preparado?. Portal Eventos, 2020. Disponível em: https://www.revistaeventos.com.br /blog/Eventos-de-sucesso!/EVENTOS-HIBRIDOS -E-DIGITAIS:-Voce-esta-preparado /49584.
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>TEIZEN</strong>
+                            , Beatrice. Evento híbrido da Renase marca nova fase da agência. Panrotas corporativo, 2020. Disponível em: https://www.panrotas.com.b r/viagens-corporativas/eventos/2020/07 /evento-hibrido-da-renase-marca-nova- fase-da-agencia_174925.html.
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>LAYMAN</strong>
+                            , Madison. Virtual Events in 2020: The Ultimate Guide. cvent, 2020. Disponível em: https://www.cvent.com/en/blog /events/virtual-events.
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>Gerrit Heijkoop</strong>
+                            . YouTube, 2020. How to Organize Engaging Hybrid Events. Disponível em: https://youtu.be/1cqj0ruaaXY.
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong> Endless Event</strong>
+                           . Virtual Event - Planning Checklist. Disponível em: https://offers.helloendless.com /virtual-event-planning-checklist.
+                            <p>
+
+                            <p class="Texto"><i class="bi bi-journals"></i>
+                            <strong>VANNESTE</strong>
+                            , Maarten. Multi-Hub Meeting: when groups meets groups. Belgium: 2018, Meeting Support Institute.</p>
                             <br><br>
 
                             <div class="border border-success m-4 p-4 text-rounded rounded rounded-lg">
@@ -85,6 +151,11 @@ include('layout/header.php');
                                 </h5>
                             </div>
                             <br><br>
+                        </div>
+                    </div>
+                </div>
+            
+                     
 
 
         <!-- Botões de navegação -->

@@ -47,9 +47,9 @@
             </div> -->
 
             <li class="menu">
-                <a href="topico03.html">
+                <a href="topico03.php">
                     <span class="icon"><i class="bi bi-3-circle"></i></span>
-                    <span class="txt">Técnicas de Negociação e Administração de Conflitos</span>
+                    <span class="txt">Design e planejamento de eventos digitais</span>
                 </a>
             </li>
 

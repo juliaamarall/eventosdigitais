@@ -73,17 +73,7 @@ th{
 }
 
 
-
-/* .table-center{
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-} */
-
-
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     thead{
         display: none;
     } 
@@ -98,5 +88,5 @@ th{
         font-weight: bold;
     }
     
-} */
+}
 
