@@ -399,7 +399,8 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
                                 <p>O rico comparativo entre as categorias de eventos apresentados no ebook apresenta as <strong>diferentes dinâmicas entre os eventos presenciais, híbridos e 100% virtuais</strong>. Os itens em azul devem ser lidos com atenção, pois serão comentados na sequência.</p>
                             </div>
                             <!-- TABELA DO TÓPICO 02 --> 
-                                        <table class="table table-striped">
+                        
+                            <table class="table table-striped">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Aspectos</th>
@@ -411,109 +412,112 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
                                             <tbody class="tBody">
                                                 <tr>
                                                  <td data-th="Aspectos">Fator de atração</td>
-                                                    <td data-th="Presencial">Atraem público para um único local e para o networking. </td>
-                                        AspectosAspectos            <td data-th="">Também converge todos para um mesmo local. No virtual, a atração principal é o conteúdo e a dinâmica dos encontros presenciais. </td>
-                                                    <td data-th="">O que atrai é o conteúdo e a facilidade de acesso. Flexibilidade de tempo. Não há necessidade de deslocamento. </td>
+                                                 <td data-th="Presencial">Atraem público para um único local e para o networking. </td>
+                                                 <td data-th="Híbrido">Também converge todos para um mesmo local. No virtual, a atração principal é o conteúdo e a dinâmica dos encontros presenciais. </td>
+                                                 <td data-th="Virtual">O que atrai é o conteúdo e a facilidade de acesso. Flexibilidade de tempo. Não há necessidade de deslocamento. </td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Conteúdo</td>
                                                     <td data-th="Presencial">Conteúdo direcionado e dinâmicas de interação presencial que reforçam sua retenção. Conteúdos com maior profundidade.</td>
-                                                    <td data-th="">O conteúdo do híbrido deve ser mais rico que o presencial para motivar a participação Os participantes do híbrido podem não ter acesso a todos os conteúdos do evento.</td>
-                                                    <td>Conteúdos mais curtos e mais precisos.</th>
+                                                    <td data-th="Híbrido">O conteúdo do híbrido deve ser mais rico que o presencial para motivar a participação Os participantes do híbrido podem não ter acesso a todos os conteúdos do evento.</td>
+                                                    <td data-th="Virtual">Conteúdos mais curtos e mais precisos.</th>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Tamanho do público</td>
                                                     <td data-th="Presencial">Limitado ao espaço e ao mercado regional (pessoas podem viajar até o local do evento).</td>
-                                                    <td class="text-primary" data-th="">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
-                                                    <td class="text-primary" data-th="">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
+                                                    <td class="text-primary" data-th="Híbrido">Limite do espaço físico e potencial de alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potenciais até maiores.</td>
+                                                    <td class="text-primary" data-th="Virtual">Potencial para alcançar dezenas de milhares de pessoas virtualmente. Alguns eventos possuem potencial para alcançar número ainda maior de pessoas, principalmente após o público se acostumar mais com este tipo de evento.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Programação</td>
                                                     <td data-th="Presencial">Oferece formato e programa variados, desde plenária, seminários, sessões simultâneas e paralelas.</td>
-                                                    <td data-th="">Programação mais complexa para criar que o presencial, uma vez que precisa atender, de forma integrada, os públicos diversos</td>
-                                                    <td data-th="">Programação mais flexível quanto aos dias e horários. Possibilidade de várias sessões paralelas com moderadores e públicos de tamanhos distintos.</td>
+                                                    <td data-th="Híbrido">Programação mais complexa para criar que o presencial, uma vez que precisa atender, de forma integrada, os públicos diversos</td>
+                                                    <td data-th="Virtual">Programação mais flexível quanto aos dias e horários. Possibilidade de várias sessões paralelas com moderadores e públicos de tamanhos distintos.</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Sustentabilidade</td>
-                                                    <td>Maior uso de papel e geração de lixo. Maior emissão de CO2 per capita.</td>
-                                                    <td>Geração de resíduos sólidos e uso do papel proporcionalmente menor</td>
-                                                    <td class="text-primary">Sem uso de papel. Sem geração de resíduos sólidos.</td>
+                                                    <td data-th="Aspectos">Sustentabilidade</td>
+                                                    <td data-th="Presencial">Maior uso de papel e geração de lixo. Maior emissão de CO2 per capita.</td>
+                                                    <td data-th="Híbrido">Geração de resíduos sólidos e uso do papel proporcionalmente menor</td>
+                                                    <td class="text-primary" data-th="Virtual">Sem uso de papel. Sem geração de resíduos sólidos.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Custo para desenvolvimento</td>
                                                     <td data-th="Presencial">Demanda maior investimento</td>
-                                                    <td data-th="">Demanda maior investimento </td>
-                                                    <td data-th="">Demanda maior investimento nos primeiros eventos. tende a diminuir com o tempo</td>
+                                                    <td data-th="Híbrido">Demanda maior investimento </td>
+                                                    <td data-th="Virtual">Demanda maior investimento nos primeiros eventos. tende a diminuir com o tempo</td>
                                                 </tr>
                                                 <tr>
                                                     <td  data-th="Aspectos">Custo para o participante </td>
                                                     <td data-th="Presencial">Mais caro </td>
-                                                    <td data-th="">No presencial igual. No virtual, mais acessível que o presencial. </td>
-                                                    <td data-th="">Menor custo entre os modelos</td>
+                                                    <td data-th="Híbrido">No presencial igual. No virtual, mais acessível que o presencial. </td>
+                                                    <td data-th="Virtual">Menor custo entre os modelos</td>
                                                 </tr>
                                                 <tr>
-                                                    <td data-th="AspectosAspectos">Estruturas de mobilidade </td>
+                                                    <td data-th="Aspectos">Estruturas de mobilidade </td>
                                                     <td data-th="Presencial">Transporte, táxi, estacionamento, transporte público, Uber.</td>
-                                                    <td data-th="">Transporte, táxi, estacionamento, transporte público, Uber.</td>
-                                                    <td data-th="">Sem necessidade de mobilidade.</td>
+                                                    <td data-th="Híbrido">Transporte, táxi, estacionamento, transporte público, Uber.</td>
+                                                    <td data-th="Virtual">Sem necessidade de mobilidade.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Necessidades de estruturas físicas </td>
-                                                    <td data-th="">Demanda local adequada, com estacionamento; próximo de transporte público; local com ar condicionado, mesas, cadeiras, projetores, cenografia etc.</td>
-                                                    <td data-th="">Idem para o evento presencial. Essencial alta qualidade de vídeo, áudio e conexão. </td>
-                                                    <td data-th="">Essencial alta qualidade de vídeo, áudio e conexão. Não demanda local específico.</td>
+                                                    <td data-th="Presencial">Demanda local adequada, com estacionamento; próximo de transporte público; local com ar condicionado, mesas, cadeiras, projetores, cenografia etc.</td>
+                                                    <td data-th="Híbrido">Idem para o evento presencial. Essencial alta qualidade de vídeo, áudio e conexão. </td>
+                                                    <td data-th="Virtual">Essencial alta qualidade de vídeo, áudio e conexão. Não demanda local específico.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Infraestrutura (banheiros, A&B, segurança, …)</td>
-                                                    <td data-th="">Necessidade de providências e cuidados para que os presentes se sintam bem, alimentados e confortáveis. </td>
-                                                    <td data-th="">Igual no presencial. Nenhuma necessidade de infraestrutura física no virtual.</td>
-                                                    <td data-th="">Nenhuma necessidade de infraestrutura física.</td>
+                                                    <td data-th="Presencial">Necessidade de providências e cuidados para que os presentes se sintam bem, alimentados e confortáveis. </td>
+                                                    <td data-th="Híbrido">Igual no presencial. Nenhuma necessidade de infraestrutura física no virtual.</td>
+                                                    <td data-th="Virtual">Nenhuma necessidade de infraestrutura física.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Networking (entre os participantes)</td>
-                                                    <td data-th="">Permite interação face a face.</td>
-                                                    <td data-th="">Permite interação face a face no presencial, mas existem barreiras a serem vencidas na interação entre os virtuais e os presenciais. </td>
-                                                    <td data-th="">Mais difícil e trabalhoso. Demanda de articulação e de tecnologias. O fato de não ter acontecido o encontro presencial faz com que as pessoas demorem a conectar umas com as outras. Em alguns públicos, acontece o contrário: o virtual as ajuda a se conectar mais rápido.</td>
+                                                    <td data-th="Presencial">Permite interação face a face.</td>
+                                                    <td data-th="Híbrido">Permite interação face a face no presencial, mas existem barreiras a serem vencidas na interação entre os virtuais e os presenciais. </td>
+                                                    <td data-th="Virtual">Mais difícil e trabalhoso. Demanda de articulação e de tecnologias. O fato de não ter acontecido o encontro presencial faz com que as pessoas demorem a conectar umas com as outras. Em alguns públicos, acontece o contrário: o virtual as ajuda a se conectar mais rápido.</td>
                                                 </tr>
                                                 <tr>
                                                     <td data-th="Aspectos">Engajamento</td>
-                                                    <td data-th="">Permite atividades presenciais, mas também o uso da tecnologia. O engajamento se dá pela própria presencialidade.</td>
-                                                    <td data-th="">Requer mais criatividade e recursos de tecnologia que o presencial, principalmente para engajar os virtuais.</td>
-                                                    <td data-th="">Estratégias diferentes e novos métodos de engajamento são necessários, uma vez que as pessoas, nos canais virtuais só permanecem em eventos que realmente estão adicionando valor para sua trajetória profissional ou pessoal.</td>
+                                                    <td data-th="Presencial">Permite atividades presenciais, mas também o uso da tecnologia. O engajamento se dá pela própria presencialidade.</td>
+                                                    <td data-th="Híbrido">Requer mais criatividade e recursos de tecnologia que o presencial, principalmente para engajar os virtuais.</td>
+                                                    <td data-th="Virtual">Estratégias diferentes e novos métodos de engajamento são necessários, uma vez que as pessoas, nos canais virtuais só permanecem em eventos que realmente estão adicionando valor para sua trajetória profissional ou pessoal.</td>
                                                 </tr>
                                                 <tr>
-                                                    <td data-th="">Investimento em tecnologia</td>
-                                                    <td data-th=""> class="text-primary">Médio</td>
-                                                    <td data-th=""> class="text-primary">Alto</td>
-                                                    <td data-th=""> class="text-primary">Alto</td>
+                                                    <td data-th="Aspectos">Investimento em tecnologia</td>
+                                                    <td data-th="Presencial" class="text-primary">  >Médio</td>
+                                                    <td data-th="Híbrido" class="text-primary"> Alto</td>
+                                                    <td data-th="Virtual" class="text-primary"> Alto</td>
                                                 </tr>
                                                 <tr>
-                                                    <td    data-th="">Dados e Analytics</td>
-                                                    <td   data-th="">Para a geração de dados e Analytics é necessário investimento em pesquisas de campo. É mais caro no médio e no longo prazos. </td>
-                                                    <td  data-th="">Melhor estrutura de dados. Fica mais barato no longo prazo.</td>
-                                                    <td  data-th="">Fortemente estruturado em dados. Muito barato nos médio e longo prazos. </td>
+                                                    <td data-th="Aspectos">Dados e Analytics</td>
+                                                    <td data-th="Presencial">Para a geração de dados e Analytics é necessário investimento em pesquisas de campo. É mais caro no médio e no longo prazos. </td>
+                                                    <td data-th="Híbrido">Melhor estrutura de dados. Fica mais barato no longo prazo.</td>
+                                                    <td data-th="Virtual">Fortemente estruturado em dados. Muito barato nos médio e longo prazos. </td>
                                                 </tr>
                                                 <tr>
-                                                    <td data-th="">Potencial de vendas</td>
-                                                    <td data-th="">Para expositores, o encontro presencial promove mais e melhores vendas.</td>
-                                                    <td  data-th="">Para expositores, o encontro presencial promove mais e melhores vendas que no virtual.</td>
-                                                    <td data-th="">O potencial de vendas fica razoavelmente prejudicado em detrimento da falta do encontro presencial. Showcases virtuais ajudam a diminuir esse problema, mas não se comparam com expositores presenciais.</td>
+                                                    <td data-th="Aspectos">Potencial de vendas</td>
+                                                    <td data-th="Presencial">Para expositores, o encontro presencial promove mais e melhores vendas.</td>
+                                                    <td data-th="Híbrido">Para expositores, o encontro presencial promove mais e melhores vendas que no virtual.</td>
+                                                    <td data-th="Virtual">O potencial de vendas fica razoavelmente prejudicado em detrimento da falta do encontro presencial. Showcases virtuais ajudam a diminuir esse problema, mas não se comparam com expositores presenciais.</td>
                                                 </tr>
 
                                                 <tr>
-                                                    <td data-th="">Feiras (potencial para expositores) </td>
+                                                    <td data-th="Aspectos">Feiras (potencial para expositores) </td>
                                                 <td>Cenário ideal para expositores.</td>
-                                                    <td data-th="">Cenário ideal para expositores do evento presencial </td>
-                                                    <td data-th="">É necessária a aplicação de novas tecnologias e métodos para a aproximação de um cenário aceitável. Em determinados eventos, a experiência virtual pode até suplantar o evento presencial, mas é necessário maior investimento em tecnologia.</td>
+                                                    <td data-th="Presencial">Cenário ideal para expositores do evento presencial </td>
+                                                    <td data-th="Híbrido">É necessária a aplicação de novas tecnologias e métodos para a aproximação de um cenário aceitável. Em determinados eventos, a experiência virtual pode até suplantar o evento presencial, mas é necessário maior investimento em tecnologia.</td>
+                                                    <td data-th="Virtual">O potencial de vendas fica razoavelmente prejudicado em detrimento da falta do encontro presencial. Showcases virtuais ajudam a diminuir esse problema, mas não se comparam com expositores presenciais.</td>
                                                 </tr>
                                                 <tr>
-                                                    <td data-th="">Tempo para desenvolvimento</td>
-                                                    <td data-th=""> class="text-primary">De 1 a 6 meses</td>
-                                                    <td data-th=""> class="text-primary">De 1 a 6 meses</td>
-                                                    <td data-th=""> class="text-primary">De 1 a 2 meses</td>
+                                                    <td data-th="Aspectos">Tempo para desenvolvimento</td>
+                                                    <td data-th="Presencial"> class="text-primary">De 1 a 6 meses</td>
+                                                    <td data-th="Híbrido"> class="text-primary">De 1 a 6 meses</td>
+                                                    <td data-th="Virtual"> class="text-primary">De 1 a 2 meses</td>
                                                 </tr>
                                             </tbody>
                                         </table>
+                           
+                                        
                                     
                                   
 

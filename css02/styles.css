@@ -70,17 +70,33 @@ ul li.menu a {
 /* ESTILIZAÇÃO DA TABLE TH */
 th{
     font-weight: lighter;
-    wi
 }
 
-@media (max-width: 767px) {
+
+
+/* .table-center{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} */
+
+
+/* @media (max-width: 767px) {
     thead{
         display: none;
+    } 
+
+     td{
+        display: block !important;
+        gap: .5rem;
     }
 
-    td{
-        display: block !important;
+    td::before{
+        content: attr(data-th) ": ";
+        font-weight: bold;
     }
     
-}
+} */
 
