@@ -47,31 +47,204 @@ Ilustrar a experiência de eventos digitais a partir de exemplos reais;
 <p>Como você pode observar, existem muitos níveis de eventos digitais. Alguns são simples e facilmente viabilizados com a ajuda de um <strong>
  parceiro ou fornecedor que entenda de tecnologia e ajude na transmissão. </strong></p>
 <p>Atualmente, é possível realizar facilmente uma reunião virtual ou videoconferência. O Zoom é um exemplo dessas plataformas.</p>
-<hr>
-<!-- SEGUNDO BLOCO DO TÓPICO 02 -->
-<div class = 'mt-5'>
-<h3 class = 'fw-semibold text-secondary'>Eventos Presenciais não estão com os dias contatos.</h3>
 
-<p class = 'text-left'>
-Vamos iniciar este tópico com um exercício mental. Faça uma rápida retrospectiva dos momentos mais importantes da sua vida. É bem provável que os eventos imediatamente apareçam na sua memória.
-</p>
-
-<p class = 'text-left'>
-Essa atividade ancestral faz parte da vida pessoal e sempre fará parte do<strong> itinerário de estudantes, profissionais e cientistas</strong>. Os eventos funcionam como uma grande ferramenta informativa, questionadora, dialética, expositiva, competitiva, deliberativa e instrutiva.
-</p>
-
-<p class = 'text-left'>
-Posteriormente vamos detalhar mais sobre os tipos de eventos, classificações e demais “peças” que compõem o evento. <strong>É importante criar o evento antes de planejar e planejar antes de executar</strong>.
-</p>
-
-<p class = 'text-left'>
-Criar é inventar, ter ideias, imaginar a realidade antes mesmo de elaborar uma lista de tarefas.
-</p>
-
-<p class = 'text-left'>
-É comum relacionar a organização de eventos com muitas listas de tarefas e a corrida operacional contra o tempo, mas antes de colocar a mão na massa é preciso focar energia na fase de criação ou ideação.
-</p>
+<!-- IMAGEM 13 -->
+<div class = 'text-center img-01'>
+<div class = 'zoom'>
+<a href = 'imagens/Figura01.png' data-bs-toggle = 'modal' data-bs-target = '#Imagem01'>
+<img src = 'imgs/Figura13.png' alt = 'Imagem que remete a organização' id = 'img-1'>
+</a>
 </div>
+<p class = 'FonteFigura FonteMenor text-secondary'><strong>Fonte:</strong> https://midiamax.com.br/wp-content/uploads/2020/04/monitor-moderncomm_2f6782a.png</p>
+
+<!-- FIM DA IMAGEM 13 -->
+
+<hr>
+
+
+<div class="text-left">
+    <p> <strong>Para que essa tela apareça facilmente para o público, é preciso configurar o que chamados de transmissão </strong>. Todo o conteúdo do Zoom passa a ser transmitido em um link no youtube e pode ser facilmente assistido.</p>
+
+    <p>Essa configuração deve ser feita por algum parceiro que entenda dessas tecnologias ou caso você tenha facilidade, basta pesquisar tutoriais na internet.</p>
+
+    <p> <strong>Reunir a função de organizador e equipe técnica não é recomendado, pois aumenta os riscos e imprevistos ao vivo.</strong></p>
+
+    <p>Outros são robustos e precisam de ajuda de diversos fornecedores ou até mesmo um  <strong>processo licitatório para que possa ser viabilizado com qualidade </strong>.</p>
+
+    <p>Apesar de não ser o foco principal do curso, você deve utilizar os conhecimentos aprendidos aqui para justificar termos de referência para licitações ou o repasse de verbas públicas para eventos digitais.</p>
+</div>
+
+        <!-- CAIXA ALERT CINZA -->
+        <div class="alert alert-dark" role="alert">
+            <p> <strong>Mas em plena pandemia, o governo vai investir recurso em evento digital?</strong>
+            SIM! É justificável a execução de eventos digitais na pandemia, pois essa uma  <strong>ferramenta efetiva de comunicação e educação</strong>.</p>
+       </div>
+
+       <div class="text-left">
+        <p>Um novo edital de inovação e COVID-19 pode ser lançado em um evento ou uma série de workshops de gestão ágil são iniciativas materializadas por meio de eventos digitais.</p>
+
+        <p>Este tópico deverá ser estudado de uma forma diferente. Você deve estudar todo o conteúdo, mas ele funcionará como um guia, no qual as informações podem ser consultadas não necessariamente na sequência.</p>
+
+        <p> <strong>Imagine que agora você é um arquiteto, um maestro e um contador de histórias </strong>. Você precisa conhecer todas as peças que podem compor o evento, mas nem sempre elas são utilizadas, assim como um instrumento específico aparece na orquestra apenas em pontos específicos.</p>
+       </div>
+            <!-- SEGUNDO BLOCO DO TÓPICO 03 -->
+        <div class = 'mt-5 text-left'>
+            <h3 class = "fw-semibold text-secondary text-left">Conexão com o Participante Remoto<h3>
+
+            <p class="fs-4 fw-light text-light-emphasis">
+            Como funciona a interação com o público?
+            </p>
+
+            <p>Em eventos menores, a interação é realizada através do próprio bate-papo do aplicativo de conferência (Ex: Zoom) ou plataforma de transmissão (Ex: Youtube).</p>
+
+            <p>Outras formas de interação podem ser utilizadas: whatsapp exclusivo, aplicativo próprio para celular ou plataforma própria similar ao youtube.</p>
+
+            <p>Eventos inovadores e disponibilidade de recursos podem desenvolver <strong> games próprios e interações através de </strong> <span class="text-primary">intervenções em 3D </span>.</p>
+
+            <p>O evento <span class="text-primary">Ceará Global </span>, por exemplo, utilizou esse tipo de intervenção, simulando o passeio na beira-mar interativo com atração musical, feira virtual e diversas outras atividades.</p>
+
+            <hr>
+
+            <p>Exemplos como esses devem ser considerados inspiração para <strong>projetos mais robustos e com disponibilidade de recursos por meio de licitação </strong>. O seu primeiro projeto de evento deverá focar na qualidade do conteúdo, na capacidade de resolver problemas e cumprir os seus objetivos.</p>
+
+            <p>Não adianta investir em recursos inovadores se o seu evento não tem uma <strong>programação de altíssima qualidade, comunicação agradável e ainda apresenta problemas técnicos</strong>. Menos é mais!</p>
+                <!-- LISTA PARA O SEGUNDO BLOCO DO TÓPICO 03 -->
+                
+            <ul class="text-dec fs-5">
+               <ul class="m-1">
+                <li><i class="bi bi-filter-circle me-2"></i>Algumas das ferramentas digitais mais utilizadas neste formato:</li>
+               </ul>
+                <li>Website do Evento (ou formulário de cadastro de inscrições);</li>
+                <li>Plataforma para acessar a captação e transmissão do evento (Zoom para captar e Youtube para transmitir);</li>
+                <li>Plataforma para emissão de certificados (geralmente integrada com sistema de inscrições. Ex: Sympla, Doity ou Eventialz);</li>
+                <li>Perguntas e Respostas;</li>
+                <li>Votações ao vivo;</li>
+                <li>Chat;</li>
+            </ul>
+            <ul>
+            </ul>
+
+            <!-- UMA MINI SEÇÃO DENTRO DO BLOCO 02 DO TÓPICO 03 -->
+            <div class="text-left">
+            <p class="fs-4 fw-light text-light-emphasis">
+            O público pode falar ao vivo durante o evento?</p>
+
+            <p>Depende do formato e da ferramenta de captação. Caso você considere interessante essa participação em áudio ou vídeo, é preciso que o <strong>sistema de captação esteja configurado para “receber virtualmente” todos os participantes </strong>.</p>
+
+            <p>Vamos exemplificar um evento fictício para facilitar a compreensão. Um fórum de educação teve 150 inscritos e há um momento de debate audiovisual.</p>
+
+            <p>Caso seja necessária a participação dos 150 através de áudio ou vídeos,<strong>
+             então todos devem “entrar no evento” por meio da plataforma de captação </strong>, isto é, um aplicativo de conferência como o Zoom, Webex ou qualquer outro.</p>
+
+            <p>Caso os 150 participantes sejam apenas expectadores, basta assistir pelo próprio Youtube e interagir via bate-papo. <strong>Essa é a forma mais comum observada em eventos digitais </strong>.</p>
+
+            <!-- IMAGEM 14 -->
+            <div class = 'text-center img-01'>
+            <div class = 'zoom'>
+            <a href = 'imagens/Figura01.png' data-bs-toggle = 'modal' data-bs-target = '#Imagem01'>
+            <img src = 'imgs/Figura14.png' alt = 'Imagem que remete a organização' id = 'img-1'>
+            </a>
+            </div>
+            <p class = 'FonteFigura FonteMenor text-secondary'><strong>Fonte:</strong>https://0xzx.com/wp-content/uploads/2020/04/zoom-blog.jpg</p>
+            <!-- FIM DA IMAGEM 14 -->
+
+            </div>
+
+            <!-- OUTRA MINI SEÇÃO DENTRO DO BLOCO 02 DO TÓPICO 03 -->
+            <div class="text-left">
+            <p class="fs-4 fw-light text-light-emphasis">
+            Como fazer com que o público participe e engaje no evento?</p>
+
+            <p>Essa é a pergunta de um milhão de dólares, mas a resposta é mais simples. O primeiro passo é criar e planejar o evento com conteúdos úteis, relevantes, com chamadas fortes e comunicação adequada. <strong> Seja crítico e não se contente com a primeira opção de programação </strong>.</p>
+
+            <p>É importante relembrar que estamos falando de eventos digitais, então toda a programação e a experiência durante o evento deve ser dinâmica para que a atenção do público não seja dispersada.</p>
+
+            <p>O tradicional Cerimonial e Protocolo, por exemplo, é necessário no evento digital, mas precisam se repensados para que a dinâmica da apresentação não se torne massante.</p>
+            </div>
+
+            
+            
+            
+        </div>
+
+
+         <!-- TERCEIRO BLOCO DO TÓPICO 03 -->
+         <div class = 'mt-5 text-left'>
+            <h3 class = "fw-semibold text-secondary text-left">Plataformas de Transmissão<h3>
+
+            <p>É comum confundir o sistema de captação (Ex: Zoom) com o sistema de transmissão (Ex: Youtube/Facebook), então vamos aprender de uma vez por todas a partir da tabela abaixo:</p>
+        </div>
+
+        <!-- TABELA DO TERCEIRO BLOCO DO TÓPICO 03  -->
+        <table class="table table-bordered  table-striped" id="cor-table">
+        <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col">Plataforma de Captação</th>
+                                                    <th scope="col">Plataforma de Transmissão</th>
+                                                   
+                                                </tr>
+                                            </thead>
+                                        <tbody>
+                                            <tr class="tBody">
+                                                <td data-th=""><em>O que faz?</em></td>
+                                                <td data-th="Plataforma de Captação"><em>Realiza a videoconferência entre palestrantes/público com áudio e vídeo.</em></td>
+                                                <td class="text-primary" data-th="Plataforma de Transmissão"><em>Apenas compartilha a tela da videoconferência e possui bate-papo (Youtube).</em></td>
+                                            </tr>
+
+                                            <tr class="tBody">
+                                                <td data-th=""><em>Exemplo de plataforma</em></td>
+                                                <td data-th="Plataforma de Captação"><em>Zoom e Webex</em></td>
+                                                <td class="text-primary" data-th="Plataforma de Transmissão"><em>Youtube, Vimeo e Facebook</em></td>
+                                            </tr>
+
+                                            <tr class="tBody">
+                                                <td data-th=""><em>Uso em um evento com 15 debatedores e 500 participantes</em></td>
+                                                <td data-th="Plataforma de Captação"><em>15 pessoas debatem na plataforma de captação</em></td>
+                                                <td class="text-primary" data-th="Plataforma de Transmissão"><em>500 pessoas assistem pelo youtube e enviam perguntas pelo bate-papo</em></td>
+                                            </tr>
+
+                                            <tr class="tBody">
+                                                <td data-th=""><em>Uso em reunião anual com 50 Gestores de Educação</em></td>
+                                                <td data-th="Plataforma de Captação"><em>As 50 devem falar por áudio ou vídeo? Sim. Então ficam na plataforma de captação.</em></td>
+                                                <td class="text-primary" data-th="Plataforma de Transmissão"><em>As 50 devem falar por áudio ou vídeo? Sim. Então não há necessidade de utilização da plataforma de transmissão..</em></td>
+                                            </tr>
+
+                                            <tr class="tBody">
+                                                <td data-th=""><em>Uso em reunião anual com 50 Gestores de Educação</em></td>
+                                                <td data-th="Plataforma de Captação"><em>As 50 devem falar por áudio ou vídeo? Não. Então apenas os palestrantes ficam na plataforma de captação.</em></td>
+                                                <td class="text-primary" data-th="Plataforma de Transmissão"><em>As 50 devem falar por áudio ou vídeo? Não. Então o público assiste ao evento pelo youtube, por exemplo</em></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+        <!-- FIM DA TABELA -->
+        <div class="text-left">
+            <p>Existem muitas plataformas de captação e transmissão no mercado. Listamos o Zoom e Youtube, pois sua utilização no mercado é crescente, mas diversas outras estão disponíveis no mercado.</p>
+        </div>
+
+        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+  <section class="container">
+    <div class="accordion ">
+      <section id="content">
+        <div class="caixaprincipal" id="titulofiqueatento">
+          <div class="div_teste">
+            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
+            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+          </div>
+        </div> <!--caixa Principal-->
+        <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+          <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+          <p class="txt-caixasecundaria">
+          Não é porque uma plataforma é gratuita que ela vai reter menos público. Na verdade, é o contrário disso. Durante a pandemia, você provavelmente acompanhou muitas transmissões ao vivo nas redes sociais e, principalmente, no Youtube. O projeto “Skol Forró”, da Skol, foi pensado para diminuir a saudade do público dos grandes shows e festivais de forró. Por meio de lives, talk shows e conteúdos transmitidos pelo YouTube e produzidos por grandes artistas do gênero, a iniciativa impactou milhões de pessoas e está ativa até hoje.
+          </p>
+        </div>
+      </section>
+  </section>
+  <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+
+                                              
 <!-- Citação com borda verde ( esquerda ) -->
 <div class = 'bd-callout bd-callout-success m-3'>
 

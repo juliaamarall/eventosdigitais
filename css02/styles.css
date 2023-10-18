@@ -30,8 +30,9 @@ ul li.menu a {
 /* estilização para ul que precisam de decoração */
 .text-dec > li{
     list-style: disc;
-
 }
+
+
 
 /* CAIXA CURIOSIDADES */
 .accordion #content .caixaprincipal#titulocuriosidade {
