@@ -30,8 +30,9 @@ ul li.menu a {
 /* estilização para ul que precisam de decoração */
 .text-dec > li{
     list-style: disc;
-
 }
+
+
 
 /* CAIXA CURIOSIDADES */
 .accordion #content .caixaprincipal#titulocuriosidade {
@@ -66,3 +67,38 @@ ul li.menu a {
     text-decoration: none;
     color: white;
 }
+
+/* ESTILIZAÇÃO DA TABLE TH */
+th{
+    font-weight: lighter;
+}
+
+
+@media (max-width: 767px) {
+    thead{
+        display: none;
+    } 
+
+     td{
+        display: block !important;
+        gap: .5rem;
+    }
+
+    td::before{
+        content: attr(data-th) ": ";
+        font-weight: bold;
+    }
+    
+}
+
+/* ESTILIZAÇÃO DO ALERT CINZA CLARO (SÉTIMO BLOCO DO TÓPICO 03) */
+#alert-personalizado{
+    background-color: #dddbdbda;
+    border-color: #e7e5e5e5;
+}
+
+/* ESTILIZAÇÃO DO ALERT BRANCO */
+#alert-branco{
+    font-size: 0.5em;
+}
+

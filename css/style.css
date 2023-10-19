@@ -68,7 +68,6 @@ body {
     margin: 0;
     background-color: var(--white);
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 
