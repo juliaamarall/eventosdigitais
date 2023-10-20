@@ -316,7 +316,10 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
                                 </div>
                                     
                                     <!-- IFRAME YOUTUBE-->
+                                    <div class="container iframe-container">
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/ge5SOZGXVGk?si=sDyFi7yl6_nxS8LV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                   </div>
+                                   
                                         <!-- FIM DO IFRAME -->
 
                             <div class="text-left mt-3">
