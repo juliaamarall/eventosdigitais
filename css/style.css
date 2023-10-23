@@ -1,10 +1,13 @@
 /* font relawey (para os conteúdos de textos dos parágrafos)  */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+/* OBS:
+A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
+/*
+
 /* estilo do menu lateral (feito pelo audi) */
 
-
-:root {
+:root{
     --CormenuLateral: #EFF7F0;
     --CorPreto: black;
     --CorBranca: white;
@@ -13,6 +16,10 @@
     --CorCinzaMaisClaro: #ccc;
     --CorLaranjaClaroParaFonteDosaccordion: #664d03;
     /* cores do estado */
+
+    /* CORES DOS TITULOS  */
+    --CorSubSubtopico: rgb(86, 161, 86) ;
+    --CorSubtopico: rgb(39, 156, 61);
 
 
     /* modo escuro */
@@ -56,6 +63,11 @@
     /*  */
 }
 
+a {
+    text-decoration: none;
+    color: #4a71f1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -68,9 +80,34 @@ body {
     margin: 0;
     background-color: var(--white);
     max-width: 100%;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 12px;
 }
 
+body::-webkit-scrollbar-track {
+    background: #e9e9e9;
+}
 
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+}
+
+/* aqui eu defini algumas propriedades que "ajudam" a nav a ficar animada --jayron-- */
+#navmenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    z-index: 4;
+}
+
+/* fim da nav animada */
+
+/* INÍCIO DAS CONFIGURAÇÕES DO MENU LATERAL */
 /* img logo da egp */
 #logo {
     width: 60px;
@@ -100,24 +137,35 @@ body {
     transition: 0.3s;
     z-index: 999;
 }
-
-
-/* aqui eu defini algumas propriedades que "ajudam" a nav a ficar animada --jayron-- */
-
-#navmenu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    z-index: 4;
-}
-
-/* fim da nav animada */
-
 ul {
     list-style: none;
 }
+
+ol {
+    margin: 30px 0;
+}
+
+ol li {
+    font-family: var(--FonteRaleway);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+[data-theme="dark"] ol li {
+    color: white;
+}
+
+[data-theme="dark"] .list li {
+   color: white;
+}
+
+.list li {
+    font-family: var(--FonteRaleway);
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
 
 [data-theme="dark"] ul li.menu a {
     color: var(--color-light-50);
@@ -127,14 +175,15 @@ ul li.menu a {
     color: #44833D;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 0%;
+    padding: 10px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     cursor: pointer;
     transition: 0.4s;
-    height: 60px;
+    height: fit-content;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .menulateral ul {
@@ -146,14 +195,17 @@ ul li.menu a {
 
 ul li.menu a .txt {
     margin-left: 2.5rem;
-
+    display: flex;
+    text-align: left;
+    width: 100%;
 }
 
 @media screen {
-    @media(max-width: 400px){
+    @media(max-width: 400px) {
         ul li.menu a .txt {
             margin-left: 0.5rem;
         }
+
         ul li.menu a .txt {
             margin-left: 0.5rem;
         }
@@ -191,9 +243,32 @@ ul li.menu a:hover {
 .menulateral:hover {
     width: 280px;
     z-index: 6;
+    overflow-y: auto;
 }
 
+.menulateral:hover::-webkit-scrollbar {
+    width: 7px;
+}
 
+.menulateral:hover::-webkit-scrollbar-track {
+    background: #EFF7F0;
+}
+
+.menulateral:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+.menulateral:hover::-webkit-scrollbar {
+    width: 7px;  
+  }
+.menulateral:hover::-webkit-scrollbar-track {
+    background: #EFF7F0; 
+  }
+.menulateral:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185); 
+    border-radius: 10px;
+  }
 /* ESTILO DO MENU RESPONSIVO */
 
 .offcanvas {
@@ -216,7 +291,6 @@ ul li.menu a:hover {
     bottom: 30%;
     color: #198754 !important;
 }
-
 
 /* MENU LATERAL RESPONSIVO CONTEÚDO */
 .offcanvas-body>.menulateral-responsivo>ul {
@@ -260,19 +334,18 @@ ul li.menu a:hover {
     padding-left: 1.2em;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-    transition: color 0.5s linear;
-    transition: background-color 0.5s linear;
+    transition: background-color 0.3s linear;
 }
 
 [data-theme="dark"] .dropdown-container a {
     color: white;
-    
 }
 
 .dropdown-container a:hover {
     color: white;
     background-color: #1a9c60;
 }
+
 [data-theme="dark"] .dropdown-container a:hover {
     background-color: #3be3e2;
 }
@@ -282,7 +355,10 @@ ul li.menu a:hover {
 }
 
 .barra-sub {
-    margin-left: 10px;
+    margin-left: 53px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 [data-theme="dark"] ul li.menu a:hover {
@@ -305,7 +381,8 @@ ul li.menu a.ativo {
     color: rgb(192, 185, 185);
 }
 
-/* fim do estilo do menu lateral */
+/* FIM DAS CONFIGURAÇÕES DO MENU LATERAL */
+
 
 /* estilos gerais */
 
@@ -388,8 +465,7 @@ hr {
     background-color: var(--color-ciano);
 }
 
-/* estilo do accordion */
-
+/* INÍCIO DO ESTILO DO ACCORDION */
 .container {
     min-height: 20vh;
     position: relative;
@@ -527,7 +603,7 @@ hr {
     color: #ffffffe0;
 }
 
-.accordion-content >
+.accordion-content,
 #exemplo {
     background-color: #49d19929;
     /*cor da caixa secundaria importante */
@@ -575,24 +651,39 @@ hr {
     /*cor da caixa secundaria reflita */
 }
 
-[data-theme="dark"] #saibamais p {
-    color: #040504;
-}
-
 
 /* CAIXA CURIOSIDADES */
-.accordion #content .caixaprincipal#titulocuriosidade {
-    background-color: #A042E5;
+.accordion #content .caixaprincipal#tituloCuriosidade {
+    background-color: #a042e5;
+    /*cor da caixa principal curiosidade*/
+    color: #fffffff6;
+    /*cor da palavra na caixa principal*/
+}
+/* CAIXA CURIOSIDADES */
+.accordion #content .caixaprincipal#tituloCuriosidade {
+    background-color: #a042e5;
     /*cor da caixa principal curiosidade*/
     color: #fffffff6;
     /*cor da palavra na caixa principal*/
 }
 
- #curiosidades {
-    background-color:#c082ec94 ;
+#Curiosidade p {
+    color: black;
+}
+#Curiosidade {
+    background-color: #a02bf529;
     /*cor da caixa secundaria curiosidade */
 }
-/* FIM DO ESTILO DA CAIXA CURIOSIDADES */
+
+[data-theme="dark"] .accordion #content .caixaprincipal#tituloCuriosidade {
+    background-color: #33beaa;
+}
+
+[data-theme="dark"] #Curiosidade {
+    background-color: #ade7df;
+}
+
+/*  FIM CAIXA CURIOSIDADES */
 /* estilo do pointer dos accordion */
 
 .accordion-content {
@@ -672,7 +763,8 @@ o estado inicial de height 0 manteria o texto aparecendo */
     padding: 20px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 735px) {
     .accordion-content * {
         visibility: visible;
     }
@@ -704,6 +796,11 @@ o estado inicial de height 0 manteria o texto aparecendo */
         margin-left: 0.5rem;
     }
 }
+/* FIM DO ESTILO DO ACCORDION */
+
+
+/* FIM DO ESTILO DO ACCORDION */
+
 
 /* estilo da tabela */
 .table {
@@ -719,27 +816,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
     padding: 1.5rem;
 }
 
-#progress-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 10px;
-    background: linear-gradient(#03cc65 0%, #03cc65 100%);
-    transition: width 0.5s ease-out;
-    z-index: 5;
-}
 
-footer {
-    margin-bottom: 15px;
-}
 
 .text-center .text {
     color: #b0b0b1;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ----------------------menu lateral responsivo --jayron-- ------------------------- */
-@media (min-width: 601px) {
+/* ---------------------- início do menu lateral responsivo --jayron-- ------------------------- */
+@media (min-width: 735px) {
 
     .offcanvas.hiding,
     .offcanvas.show,
@@ -749,7 +834,7 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 735px) {
     .menulateral {
         display: none;
         color: rgb(39, 79, 35);
@@ -758,10 +843,6 @@ footer {
     .nav-link {
         display: none;
     }
-
-
-
-
     #img_logo {
         width: 150px;
     }
@@ -781,8 +862,10 @@ form {
         visibility: hidden;
     }
 }
+/* ---------------------- fim do menu lateral responsivo --jayron-- ------------------------- */
 
-/*BOTÃO DO MODO ESCURO (JAMILLE)*/
+
+/* INÍCIO DO BOTÃO DO MODO ESCURO */
 #btn_tema {
     display: flex;
     align-items: center;
@@ -804,8 +887,8 @@ form {
     transform: translateY(0.6px);
     box-shadow: 0px 0px 0px var(--color-ciano2);
 }
-
-/*CONFIGURAÇÃO DE ALGUNS ELEMENTOS NO MODO ESCURO (JAMILLE)*/
+/* FIM DO BOTÃO DO MODO ESCURO */
+/*CONFIGURAÇÃO DE ALGUNS ELEMENTOS NO MODO ESCURO */
 
 [data-theme="dark"] #btn_menu .fa-solid {
     color: var(--color-light-50);
@@ -863,6 +946,24 @@ h2,
     color: var(--color-green);
 }
 
+.Subtopico {
+    color: var(--CorSubtopico);
+    margin: 30px 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 20px;
+}
+.subsubtopico{
+color: var(--CorSubSubtopico);
+font-size: 25px;
+border-bottom: 1px solid rgb(185, 185, 185);
+padding-bottom: 10px;
+margin: 20px 0;
+}
+
+[data-theme="dark"] .Subtopico {
+    color: white;
+}
+
 .none {
     color: #040504;
 }
@@ -879,17 +980,11 @@ h2,
     color: var(--color-light-50);
 }
 
-/* MODAL MODO ESCURO (Audi)*/
-/* [data-theme="dark"] .modal-content{
-    background-color: rgb(51, 51, 51);
-} */
-
 /* BOTÃO CLOSE MENU RESPONSIVO (Audi)*/
 [data-theme="dark"] .btn-close {
     filter: invert(1) grayscale(100%) brightness(200%);
 
 }
-
 /*FIM DA CONFIGURAÇÃO DO MODO ESCURO (JAMILLE)*/
 
 /* EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) */
@@ -914,11 +1009,7 @@ h2,
     -webkit-transform: scale(1.2);
 }
 
-
-
-/* começo da questão de fixação */
-
-
+/* INÍCIO DAS CONFIGURAÇÕES DA QUESTÃO DE FIXAÇÃO */
 /* header da questão de fixação */
 #base {
     display: flex;
@@ -926,9 +1017,7 @@ h2,
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 30px;
-
 }
-
 
 #puzzle {
     padding-right: 8px;
@@ -938,8 +1027,6 @@ h2,
     color: #505050;
 }
 
-
-
 #titulo {
     font-weight: bolder;
     font-size: 20px;
@@ -947,6 +1034,31 @@ h2,
 
 }
 
+.accordion-body {
+    background-color: rgb(196, 255, 252);
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    margin-left: 5px;
+    border: none;
+}
+
+h2.accordion-header {
+    padding-bottom: 0px;
+    border: none;
+
+}
+
+.accordion-item {
+    border: none;
+}
+
+[data-theme="dark"] .accordion-item {
+    background-color: var(--color-dark-100);
+}
 
 .accordion-button {
     background-color: #3ce4cb;
@@ -957,7 +1069,6 @@ h2,
 .accordion-button::after {
     color: white;
 }
-
 
 /* começo da questão */
 
@@ -987,12 +1098,6 @@ h2,
 
 }
 
-/* [data-theme="dark"] #botao-resposta{
-    background-color: var(--RoxoEscuroImportante);
-    color: white;
-   
-} */
-
 #grupo-botao {
     display: grid;
     justify-content: center;
@@ -1003,45 +1108,11 @@ h2,
 
 }
 
-/* [data-theme="dark"] #botao-resposta:hover{
-    background-color: #49158d;
-} */
-
-
 #titulo:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-.accordion-body {
-    background-color: rgb(196, 255, 252);
-    border-top: none;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: center;
-    padding-left: 30px;
-    margin-left: 5px;
-    border: none;
-}
-
-/* [data-theme="dark"] .accordion-body{
-    background-color: var(--RoxoClaroImportante);
-} */
-
-h2.accordion-header {
-    padding-bottom: 0px;
-    border: none;
-
-}
-
-.accordion-item {
-    border: none;
-}
-
-[data-theme="dark"] .accordion-item {
-    background-color: var(--color-dark-100);
-}
 
 /* modal após resposta do usuário */
 /* ajeitei a responsividade  */
@@ -1049,24 +1120,25 @@ img#imagem-acerto {
     width: 450px;
     height: 250px;
 }
+
 img#imagem-erro {
     width: 450px;
     height: 250px;
 }
+
 @media screen {
-    @media(max-width:400px){
+    @media(max-width:400px) {
         img#imagem-acerto {
             width: 250px;
             height: 170px;
         }
+
         img#imagem-erro {
             width: 250px;
             height: 170px;
         }
     }
 }
-
-
 .imagem {
     text-align: center;
     margin-top: -50px;
@@ -1083,11 +1155,7 @@ img#imagem-erro {
 #header-modal {
     border-bottom: none;
 }
-
-/* fim do modal */
-
-
-/* BUTTON BACK TO TOP (JAMILLE) */
+/* INÍCIO DO BUTTON BACK TO TOP (JAMILLE) */
 #back_to_top {
     position: fixed;
     z-index: 2;
@@ -1119,6 +1187,9 @@ img#imagem-erro {
     display: grid;
     place-items: center;
 }
+/* FIM DO BUTTON BACK TO TOP (JAMILLE) */
+
+/* FIM DO BUTTON BACK TO TOP (JAMILLE) */
 
 .Texto {
     cursor: default;
@@ -1126,4 +1197,20 @@ img#imagem-erro {
 
 .Texto:hover {
     margin-left: 10px;
+}
+
+/* BARRA DE PROGRESSO  */
+#progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background: linear-gradient(#03cc65 0%, #03cc65 100%);
+    transition: width 0.5s ease-out;
+    z-index: 5;
+}
+
+/* FOOTER */
+footer {
+    margin-bottom: 15px;
 }
