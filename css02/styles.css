@@ -88,6 +88,10 @@ th{
         content: attr(data-th) ": ";
         font-weight: bold;
     }
+
+    iframe{
+        width: 100%;
+    }
     
 }
 
@@ -101,4 +105,3 @@ th{
 #alert-branco{
     font-size: 0.5em;
 }
-

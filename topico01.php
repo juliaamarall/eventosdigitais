@@ -217,7 +217,11 @@ include('layout/header.php');
                                     <p class="txt-caixasecundaria">Extra: Entrevista sobre Comportamento Digital do Brasileiro durante a Pandemia (CBN Inovação).
 
                                       <!-- IFRAME DENTRO DA CAIXA CURIOSIDADES -->
-                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/QVwy54O9NjI?si=V-zXPn4Sf7onwHPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                    <div class="container iframe-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QVwy54O9NjI?si=V-zXPn4Sf7onwHPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                      
                                     </p> <!--caixa secundaria-->
                                   
                                     </div>

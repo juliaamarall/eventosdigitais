@@ -156,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sr.reveal('iframe', { duration: 1000 });
     sr.reveal('tr', { duration: 1000 });
+    sr.reveal('.alert', { duration: 1000 });
     
     // Certifique-se de incluir este código no local apropriado em sua página HTML
 });
