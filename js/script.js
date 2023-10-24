@@ -140,7 +140,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const sr = ScrollReveal({ reset: true });
 
     // ScrollReveal para a página de apresentação
-    sr.reveal('.main-content', { duration: 1000 });
 //    sr.reveal('#para01', { duration: 1000 });
 //     sr.reveal('#para02', { duration: 1000 });
 
@@ -151,12 +150,13 @@ document.addEventListener('DOMContentLoaded', function () {
     sr.reveal('h1', { duration: 1000 });
     
     sr.reveal('.bd-callout', { duration: 1000 });
-    sr.reveal('.none', { duration: 1000 });
     // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal('.scrool', { duration: 1000 });
+    sr.reveal('.text-left', { duration: 1000 });
     sr.reveal('.accordion', { duration: 1000 });
 
     sr.reveal('iframe', { duration: 1000 });
+    sr.reveal('tr', { duration: 1000 });
+    sr.reveal('.alert', { duration: 1000 });
     
     // Certifique-se de incluir este código no local apropriado em sua página HTML
 });
