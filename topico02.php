@@ -51,7 +51,7 @@ PRESENCIAL
 </button>
 </h2>
 <div id = 'collapseOne' class = 'accordion-collapse collapse show' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
+<div class = "accordion-body sem-borda">
 <p>Eventos que acontecem com 100% das pessoas presentes no local do evento. Considere pessoas os participantes, os palestrantes, expositores e todos os envolvidos na execução do evento.</p>
 </div>
 </div>
@@ -63,7 +63,7 @@ HIBRIDO
 </button>
 </h2>
 <div id = 'collapseTwo' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
+<div class = "accordion-body sem-borda">
 <p>
 Eventos que acontecem parte presencialmente e parte virtualmente. Sejam com participantes a distância, seja com palestrantes a distância.
 </p>
@@ -77,8 +77,8 @@ VIRTUAL
 </button>
 </h2>
 <div id = 'collapseThree' class = 'accordion-collapse collapse' data-bs-parent = '#accordionExample'>
-<div class = 'accordion-body'>
-<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+<div class = "accordion-body sem-borda">
+<p>Eventos que acontecem 100% das pessoas participando virtualmente, via tecnologias digitais.</p>
 </div>
 </div>
 </div>

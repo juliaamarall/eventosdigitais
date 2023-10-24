@@ -50,12 +50,24 @@ ul li.menu a {
 
 /* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
 .accordion-body {
+    background-color: rgb(240, 238, 238);
     border-top: none;
     display: flex;
     justify-content: center;
     padding-left: 30px;
     margin-left: 5px;
     border: none;
+}
+
+.accordion-button {
+    background-color: #e5e7e7;
+    --bs-accordion-active-bg: #10ac44;
+    --bs-accordion-btn-icon-bg: var(--white);
+}
+
+.sem-borda{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 /* ESTILIZAÇÃO PARA O LINK EXTERNO PARA O BLOCO 02 DO SEGUNDO TÓPICO */
@@ -125,4 +137,14 @@ th{
    color: black;
   }
  
+
+  [data-theme="dark"] .sem-borda > p {
+    color: black;
+   }
+
+   [data-theme="dark"] .accordion-body {
+    background-color: #ccc;
+   }
+
+
 
