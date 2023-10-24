@@ -47,7 +47,7 @@ include('layout/header.php');
                         </div>
                         
                         <!-- Caixa verde (parabéns cursista) -->
-                        <div class="alert alert-success" role="alert">
+                        <div class=" alert alert-success" role="alert">
                             <p class="fs-2">Parabéns cursista!</p>
                           <p>A partir de agora você ingressa em uma jornada sem volta rumo ao universo apaixonante dos eventos digitais.</p>
                         </div>

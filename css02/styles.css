@@ -49,14 +49,34 @@ ul li.menu a {
 /* FIM DO ESTILO DA CAIXA CURIOSIDADES */
 
 /* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
+
 .accordion-body {
+    background-color: rgb(214, 223, 222);
     border-top: none;
     display: flex;
     justify-content: center;
     padding-left: 30px;
     margin-left: 5px;
-    border: none;
 }
+
+.sem-borda{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+h2.accordion-header {
+    padding-bottom: 0px;
+    background-color: azure;
+}
+
+.accordion-button {
+    background-color: #e9eeed;
+    --bs-accordion-active-bg: #6ebb6e;
+}
+
+
+
+
 
 /* ESTILIZAÇÃO PARA O LINK EXTERNO PARA O BLOCO 02 DO SEGUNDO TÓPICO */
 /* colocando um background green em um alert especifico */
@@ -105,7 +125,6 @@ th{
 #alert-branco{
     font-size: 0.5em;
 }
-
 
 /* DARK MODE DA PÁGINA DO CURSO (EVENTOS DIGITAIS) */
 [data-theme="dark"] #obj > h3 {
