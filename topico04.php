@@ -28,7 +28,7 @@ include( 'layout/menu.php' );
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
-<div class = 'm-4'>
+<div class = 'm-4' id="obj">
 <h3 class = 'Titulo fw-semibold'> 01 - Objetivos</h3>
 <p><i class = 'fa fa-dot-circle text-success'></i>Resumir os principais tipos e formatos presenciais que podem ser utilizados no evento digital;
 </p>
@@ -308,10 +308,10 @@ A inspiração nesse projeto é válida, mas é preciso delimitar o alcance do s
 </section>
 <!-- Botões de navegação -->
 <div class = 'text-center'>
-<a href = 'index.php' class = 'btn btn-outline-success' role = 'button' aria-pressed = 'true'> <i
+<a href ="topico04.php" class = 'btn btn-outline-success' role = 'button' aria-pressed = 'true'> <i
 
 class = 'fa-solid fa-chevron-left'></i> Voltar </a>
-<a href = 'topico02.php' class = 'btn btn-outline-success' role = 'button' aria-pressed = 'true'>Próximo <i
+<a href = "referencias.php" class = 'btn btn-outline-success' role = 'button' aria-pressed = 'true'>Próximo <i
 
 class = 'fa-solid fa-chevron-right'></i></a>
 </div>

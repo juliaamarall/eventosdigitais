@@ -28,7 +28,7 @@ include( 'layout/menu.php' );
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
-<div class = 'm-4'>
+<div class = 'm-4' id="obj">
 <h3 class = 'Titulo fw-semibold'> 03 - Objetivos</h3>
 <p><i class = 'fa fa-dot-circle text-success'></i>Apresentar elementos técnicos necessários para realização de eventos digitais;
 </p>
@@ -589,7 +589,7 @@ Ilustrar a experiência de eventos digitais a partir de exemplos reais;
                                             <tr class="tBody">
                                                 <td data-th="Ação"><em>Sorteio</em></td>
                                                 <td data-th="Exemplos">
-                                                    <ul class="text-dec">
+                                                    <ul class="text-dec" id="list-color">
                                                     <li>Diárias em hotel;</li>
                                                         <li>Cursos;</li>
                                                         <li>Presentes do patrocinador;</li>
@@ -606,7 +606,7 @@ Ilustrar a experiência de eventos digitais a partir de exemplos reais;
                                             <tr class="tBody">
                                                 <td data-th="Ação"><em>Apresentações</em></td>
                                                 <td data-th="Exemplos">
-                                                    <ul class="text-dec">
+                                                    <ul class="text-dec" id="list-color">
                                                 <li>Mestre de Cerimônias criativo/artístico;</li>
                                                         <li>Apresentação musical gravada (antes, durante e após palestras);</li>
                                                         <li>Intervenção teatral gravada;</li>
@@ -620,7 +620,7 @@ Ilustrar a experiência de eventos digitais a partir de exemplos reais;
                                             <tr class="tBody">
                                                 <td data-th="Ação"><em>Ações presenciais</em></td>
                                                 <td data-th="Exemplos">
-                                                    <ul class="text-dec">
+                                                    <ul class="text-dec" id="list-color">
                                                 <li>Box enviado por correios com diversas interações e conteúdos;</li>
                                                         <li>Materiais para uso em palestras ou workshops específicos.</li>
                                                         </ul>
@@ -759,9 +759,9 @@ Ilustrar a experiência de eventos digitais a partir de exemplos reais;
 
         <!-- Botões de navegação -->
         <div class="text-center">
-            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
                     class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico02.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+            <a href="topico04.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 

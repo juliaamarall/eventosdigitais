@@ -29,7 +29,7 @@ include('layout/header.php');
                         <!-- tirei o hr por que o menu não estava ficando sobreposto -->
                         <!-- <hr> -->
 
-                        <div class="m-4">
+                        <div class="m-4" id="obj">
                             <h3 class="Titulo fw-semibold"> 01 - Objetivos</h3>
                             <p><i class="fa fa-dot-circle text-success"></i> Ilustrar o comportamento dos brasileiros na internet;</p>
                             <p><i class="fa fa-dot-circle text-success"></i> Apresentar um recorte do universo de eventos técnico-científicos;</p>
@@ -67,9 +67,9 @@ include('layout/header.php');
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> https://www.bstorytelling.com.br/wp-content/uploads/2020/01/Capa-01-1.png</p>
                             
                             <hr>
-                            <p class="text-left"><strong>Desapegue de qualquer tipo de medo ou preconceito</strong> e siga em frente rumo ao seu aprendizado em eventos digitais independentemente da sua idade, intimidade com tecnologia ou formação acadêmica.
+                            <p class="text-left scrool"><strong>Desapegue de qualquer tipo de medo ou preconceito</strong> e siga em frente rumo ao seu aprendizado em eventos digitais independentemente da sua idade, intimidade com tecnologia ou formação acadêmica.
                             </p>
-                            <p class="text-left">
+                            <p class="text-left scrool">
                             Planejar e realizar eventos é uma atividade multidisciplinar e essencialmente coletiva. O maior congresso do mundo, por exemplo, não ocorre sem um presidente e um profissional de limpeza.</p>
                         </div>
                         </div>
@@ -90,12 +90,12 @@ include('layout/header.php');
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> https://cdn.pixabay.com /photo/2020/09/07/00/39/virtual-learning-5550480_ 960_720.jpg</p>
                             
                             <hr>
-                            <p class="text-left">Diversos fatores explicam o crescimento da modalidade no Brasil, dentre eles o baixo custo, a facilidade de acesso à internet e a necessidade de <strong>conciliar horário de trabalho e estudo.</strong>
+                            <p class="text-left scrool">Diversos fatores explicam o crescimento da modalidade no Brasil, dentre eles o baixo custo, a facilidade de acesso à internet e a necessidade de <strong>conciliar horário de trabalho e estudo.</strong>
                             </p>
-                            <p class="text-left">
+                            <p class="text-left scrool">
                             Os dados a seguir estão em constante transformação e foram listados com o objetivo de <strong>provocar a reflexão sobre o poder da tecnologia na rotina dos brasileiros e o impacto no seu comportamento.</strong></p>
 
-                            <ul class="pl-5 text-left text-dec">
+                            <ul class="pl-5 text-left text-dec scrool">
                             <li><a href="https://portal.fgv.br/noticias/brasil-tem-424-milhoes-dispositivos-digitais-uso-revela-31a-pesquisa-anual-fgvcia" target="_blank">O Brasil já tem mais celulares que habitantes (FGV);</a> </li>
                             <li><a href="https://cetic.br/pt/pesquisa/domicilios/analises/" target="_blank">70% da população brasileira estão conectados (TIC);</a> </li>
                             <li><a href="https://www1.folha.uol.com.br/mercado/2019/07/em-12-horas-240-mil-consumidores-bloqueiam-ligacoes-de-telemarketing.shtml" target="_blank">845 mil telefones foram cadastrados na plataforma Não Me Perturbe, apenas no primeiro dia de funcionamento (Folha de São Paulo);</a> </li>
@@ -144,7 +144,7 @@ include('layout/header.php');
                         <!-- Gráfico 03 - End -->
                             <hr>
                             <!-- caixa de mensagem abaixo do gráfico 03 -->
-                            <div class="text-left">
+                            <div class="text-left scrool">
                                 <p>Dados recentes do Google Trends, plataforma que aponta tendências de pesquisas na internet, registra o crescimento de termos como “cursos a distância”, “cursos ead” e similares.</p>
                             </div>
                          <!-- Gráfico 04 - MODAL -->
@@ -184,7 +184,7 @@ include('layout/header.php');
                          <!-- Gráfico 07 - End  -->
                             <hr>
 
-                            <div class="text-left">
+                            <div class="text-left scrool">
                                 <p>Os dados apresentados reafirmam as características da nossa era, também chamada de pós-digital na qual <strong>não existe separação entre o mundo real e digital</strong>. Muitas pessoas percebem a tecnologia apenas quando ela deixa de estar disponível, seja por falta de bateria ou sinal de internet.</p>
                                 <p>Você pode não lembrar exatamente do que fez ao longo do dia no celular, mas certamente lembra o momento de esgotamento da bateria ou do pacote de internet.</p>
                             </div>
@@ -198,7 +198,7 @@ include('layout/header.php');
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> https://cdn.pixabay.com/photo/2018/05/01 /14/20/patch-3365702_960_720.jpg</p>
                             <hr>
                          <!-- imagem 04 - End  -->
-                         <div class="text-left">
+                         <div class="text-left scrool">
                                 <p>Esse “poder digital” se tornou a principal forma de <strong>adquirir informação</strong> e solidificou o <strong>protagonismo da decisão de consumo das pessoas</strong>, capazes de bloquear, “cancelar” ou invisibilizar uma experiência considerada não agradável ou não relevante.</p>
                             </div>
 
@@ -215,13 +215,6 @@ include('layout/header.php');
                                     <div class="accordion-content" id="curiosidades">
                                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
                                     <p class="txt-caixasecundaria">Extra: Entrevista sobre Comportamento Digital do Brasileiro durante a Pandemia (CBN Inovação).
-
-                                      <!-- IFRAME DENTRO DA CAIXA CURIOSIDADES -->
-
-                                    <div class="container iframe-container">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QVwy54O9NjI?si=V-zXPn4Sf7onwHPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                    </div>
-                                      
                                     </p> <!--caixa secundaria-->
                                   
                                     </div>
@@ -229,8 +222,13 @@ include('layout/header.php');
                                 </div>
                             </section>
                             <!-- FIM DA CAIXA CIRIOSIDADES -->
+                            <!-- IFRAME DA CAIXA CURIOSIDADES -->
 
-                            <div class="text-left">
+                            <div class="container iframe-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QVwy54O9NjI?si=V-zXPn4Sf7onwHPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+
+                            <div class="text-left scrool">
                                 <p>Muitas possibilidades de aprendizado digital surgem com essa realidade. Iniciativas antes limitadas à sala de aula ou auditório agora podem impactar o mundo inteiro de uma forma autoinstrucional, interativa, compartilhada, com <strong>pilares pedagógicos sólidos e efetividade no aprendizado</strong>.</p>
                                 
                                 <p>A natural limitação geográfica dos eventos e a situação de pandemia <strong>aceleram uma nova era de eventos 100% digitais</strong>, inovadores, criativos e principalmente efetivos sob a lente da educação.</p>

@@ -28,7 +28,7 @@ include( 'layout/menu.php' );
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
-<div class = 'm-4'>
+<div class = 'm-4' id="obj">
 <h3 class = 'Titulo fw-semibold'> 02 - Objetivos</h3>
 <p><i class = 'fa fa-dot-circle text-success'></i> Apresentar conceitos básicos e diferenças estratégicas e operacionais entre eventos presenciais, híbridos e digitais;
 </p>
@@ -88,23 +88,23 @@ VIRTUAL
 <div class = 'mt-5'>
 <h3 class = 'fw-semibold text-secondary'>Eventos Presenciais não estão com os dias contatos.</h3>
 
-<p class = 'text-left'>
+<p class = 'text-left scrool'>
 Vamos iniciar este tópico com um exercício mental. Faça uma rápida retrospectiva dos momentos mais importantes da sua vida. É bem provável que os eventos imediatamente apareçam na sua memória.
 </p>
 
-<p class = 'text-left'>
+<p class = "text-left scrool">
 Essa atividade ancestral faz parte da vida pessoal e sempre fará parte do<strong> itinerário de estudantes, profissionais e cientistas</strong>. Os eventos funcionam como uma grande ferramenta informativa, questionadora, dialética, expositiva, competitiva, deliberativa e instrutiva.
 </p>
 
-<p class = 'text-left'>
+<p class = "text-left scrool">
 Posteriormente vamos detalhar mais sobre os tipos de eventos, classificações e demais “peças” que compõem o evento. <strong>É importante criar o evento antes de planejar e planejar antes de executar</strong>.
 </p>
 
-<p class = 'text-left'>
+<p class = "text-left scrool">
 Criar é inventar, ter ideias, imaginar a realidade antes mesmo de elaborar uma lista de tarefas.
 </p>
 
-<p class = 'text-left'>
+<p class = "text-left scrool">
 É comum relacionar a organização de eventos com muitas listas de tarefas e a corrida operacional contra o tempo, mas antes de colocar a mão na massa é preciso focar energia na fase de criação ou ideação.
 </p>
 </div>
@@ -124,10 +124,10 @@ ele imprime ao material o projeto que tinha conscientemente em mira, o qual cons
 </div>
 <hr>
 <!-- Citação com borda verde ( esquerda ) -->
-<p class = 'text-left'>
+<p class = 'text-left scrool'>
 <strong>A fase de criação deve ser preferencialmente separada da execução</strong>, pois assim você será capaz de gerir e validar melhor o projeto. Em breve, você aprenderá mais sobre como criar projetos de eventos digitais.
 </p>
-<p class = 'text-left'>
+<p class = 'text-left scrool'>
 Cada fase é fundamental e necessária para que o evento se torne uma <strong>ferramenta efetiva de educação</strong>.
 </p>
 
@@ -150,7 +150,7 @@ Cada fase é fundamental e necessária para que o evento se torne uma <strong>fe
 <p class = 'FonteFigura FonteMenor text-secondary'><strong>Fonte:</strong>https://cdn.pixabay.com/photo/2014/12/18/22/39/auditorium-572776_960_720.jpg</p>
 
 <hr>
-<p class = 'text-left'>Paralelamente à pandemia, percebe-se a articulação de empresas organizadoras e entidades para <strong>“digitalizar” os eventos técnicos e científico ( educacionais ) em caráter de urgência</strong>.</p>
+<p class = 'text-left scrool'>Paralelamente à pandemia, percebe-se a articulação de empresas organizadoras e entidades para <strong>“digitalizar” os eventos técnicos e científico ( educacionais ) em caráter de urgência</strong>.</p>
 
 </div>
 </div>
@@ -195,15 +195,15 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
                         <!-- FIGURA 07 - End -->
 
                         <div>
-                            <p class="text-left">
+                            <p class="text-left scrool">
                             <strong>O melhor curso Ead ou conferência online não substitui a experiência presencial</strong> de viajar para um evento, o networking presencial, uma degustação gastronômica e todas as interações e sensações de um evento presencial.
                             </p>
 
-                            <p class="text-left">
+                            <p class="text-left scrool">
                             Assim como uma receita, cada evento possui ingredientes específicos selecionados de acordo com a necessidade. Os novos repertórios construídos neste curso podem, e devem, ser utilizados no <strong>planejamento de eventos presenciais</strong>.
                             </p>
 
-                            <p class="text-left">
+                            <p class="text-left scrool">
                             A partir desse novo conhecimento, você avaliará melhor se o seu evento será 100% digital, híbrido ou presencial com intervenções digitais. Será possível prever melhor os recursos necessários para propor projetos,<strong> com ou sem processo licitatório.</strong>
                             </p>
                         </div>
@@ -627,9 +627,9 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
 
         <!-- Botões de navegação -->
         <div class="text-center">
-            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
                     class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico02.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+            <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 

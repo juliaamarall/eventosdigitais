@@ -105,3 +105,24 @@ th{
 #alert-branco{
     font-size: 0.5em;
 }
+
+
+/* DARK MODE DA PÁGINA DO CURSO (EVENTOS DIGITAIS) */
+[data-theme="dark"] #obj > h3 {
+   color: white;
+}
+
+[data-theme="dark"] .alert {
+    background-color: #3be3e2;
+    border: #3be3e2;
+ }
+
+ [data-theme="dark"] .text-dec {
+   color: white;
+ }
+
+ [data-theme="dark"] #list-color li {
+   color: black;
+  }
+ 
+
