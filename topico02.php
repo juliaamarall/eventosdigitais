@@ -627,7 +627,7 @@ A Universidade Federal do Ceará ( UFC ) teve que adaptar os Encontros Universit
 
         <!-- Botões de navegação -->
         <div class="text-center">
-            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
                     class="fa-solid fa-chevron-left"></i> Voltar </a>
             <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>

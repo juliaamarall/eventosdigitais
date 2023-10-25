@@ -32,38 +32,38 @@
                                 </a>
                             </li>
                             <li class="menu">
-                                <a href="topico01.html">
+                                <a href="topico01.php">
                                     <span class="icon"><i class="bi bi-1-circle"></i>
                                     </span>
-                                    <span class="txt">Gestão de tempo</span>
+                                    <span class="txt">Panorama do Comportamento Digital</span>
                                 </a>
                             </li>
 
-                            <button class="dropdown-btn">
-                                <li class="menu">
-                                    <a data-valor="topico02.html">
-                                        <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                                        <span class="txt">Poder de decisão<i
-                                                class="bi bi-caret-down-fill barra-sub"></i></span>
-                                    </a>
-                                </li>
-                            </button>
-                            <div class="dropdown-container" id="spy">
-                                <a href="topico02.html">
-                                    <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
-                                <a href="#item1">
-                                    <i class="fa-regular fa-pen-to-square circulo"></i>Subtópico</a>
-
-                            </div>
-
-                            <li class="menu">
-                                <a href="topico03.html">
+                    
+                          <li class="menu">
+                                <a href="topico02.php">
                                     <span class="icon"><i class="bi bi-3-circle"></i></span>
-                                    <span class="txt">Planejamento de Metas</span>
+                                    <span class="txt">Eventos Presenciais, Híbridos e Digitais</span>
                                 </a>
                             </li>
+
                             <li class="menu">
-                                <a href="referencias.html">
+                                <a href="topico03.php">
+                                    <span class="icon"><i class="bi bi-3-circle"></i></span>
+                                    <span class="txt">Design e planejamento de eventos digitais</span>
+                                </a>
+                            </li>
+
+                            <li class="menu">
+                                <a href="topico04.php">
+                                    <span class="icon"><i class="bi bi-3-circle"></i></span>
+                                    <span class="txt">Tipologia de Eventos Digitais</span>
+                                </a>
+                            </li>
+
+
+                            <li class="menu">
+                                <a href="referencias.php">
                                     <span class="icon"><i class="bi bi-book-half"></i></span>
                                     <span class="txt">Referências</span>
                                 </a>

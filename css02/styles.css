@@ -146,5 +146,13 @@ th{
     background-color: #ccc;
    }
 
+   /* FIM DA ESTILIZAÇÃO DO DARK MODE */
+
+   /* ESTILIZAÇÃO PARA A PÁGINA DE REFERENCIAS */
+   #ref-topico p{
+    border: 2px solid red;
+   }
+   /* FIM DA ESTILIZAÇÃO PARA PÁGINA DE REFERENCIAS */
+
 
 

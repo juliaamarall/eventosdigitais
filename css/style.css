@@ -3,11 +3,10 @@
 
 /* OBS:
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
-/*
 
 /* estilo do menu lateral (feito pelo audi) */
 
-:root{
+:root {
     --CormenuLateral: #EFF7F0;
     --CorPreto: black;
     --CorBranca: white;
@@ -18,7 +17,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     /* cores do estado */
 
     /* CORES DOS TITULOS  */
-    --CorSubSubtopico: rgb(86, 161, 86) ;
+    --CorSubSubtopico: rgb(86, 161, 86);
     --CorSubtopico: rgb(39, 156, 61);
 
 
@@ -73,6 +72,7 @@ a {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
 }
 
 body {
@@ -81,6 +81,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 body::-webkit-scrollbar {
     width: 12px;
 }
@@ -136,6 +137,7 @@ body::-webkit-scrollbar-thumb {
     transition: 0.3s;
     z-index: 999;
 }
+
 ul {
     list-style: none;
 }
@@ -156,7 +158,7 @@ ol li {
 }
 
 [data-theme="dark"] .list li {
-   color: white;
+    color: white;
 }
 
 .list li {
@@ -173,16 +175,15 @@ ol li {
 ul li.menu a {
     color: #44833D;
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px 0%;
+    font-size: 1.1em;
+    padding: 20px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.1s;
     height: fit-content;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .menulateral ul {
@@ -197,6 +198,7 @@ ul li.menu a .txt {
     display: flex;
     text-align: left;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 @media screen {
@@ -231,13 +233,12 @@ ul li.menu a:hover {
 
 /* (transition) no CONTEÚDO PRINCIPAL  */
 .all-conteudo {
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
 }
-
 
 .menulateral:hover {
     width: 280px;
@@ -258,16 +259,6 @@ ul li.menu a:hover {
     border-radius: 10px;
 }
 
-.menulateral:hover::-webkit-scrollbar {
-    width: 7px;  
-  }
-.menulateral:hover::-webkit-scrollbar-track {
-    background: #EFF7F0; 
-  }
-.menulateral:hover::-webkit-scrollbar-thumb {
-    background-color: rgb(185, 185, 185); 
-    border-radius: 10px;
-  }
 /* ESTILO DO MENU RESPONSIVO */
 
 .offcanvas {
@@ -300,6 +291,22 @@ ul li.menu a:hover {
     right: 6%;
 }
 
+.offcanvas-body{
+    overflow-x: hidden;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+    width: 7px;
+}
+
+.offcanvas-body::-webkit-scrollbar-track {
+    background: #EFF7F0;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
 
 .dropdown-btn {
     text-decoration: none;
@@ -312,8 +319,8 @@ ul li.menu a:hover {
     outline: none;
 }
 
-.dropdown-btn:hover {
-    color: #ffffff;
+.dropdown-btn .menu:hover {
+    color: white;
 }
 
 .dropdown-container {
@@ -323,17 +330,17 @@ ul li.menu a:hover {
 .dropdown-container a {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     text-decoration: none;
     color: #44833D;
     width: 100%;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 0.7rem;
     cursor: pointer;
     position: relative;
     padding-left: 1.2em;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-    transition: background-color 0.3s linear;
 }
 
 [data-theme="dark"] .dropdown-container a {
@@ -343,6 +350,7 @@ ul li.menu a:hover {
 .dropdown-container a:hover {
     color: white;
     background-color: #1a9c60;
+    height: auto;
 }
 
 [data-theme="dark"] .dropdown-container a:hover {
@@ -354,10 +362,11 @@ ul li.menu a:hover {
 }
 
 .barra-sub {
-    margin-left: 53px;
+    /* margin-left: 53px; */
     margin-right: 10px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 [data-theme="dark"] ul li.menu a:hover {
@@ -369,7 +378,7 @@ ul li.menu a.ativo {
 }
 
 [data-theme="dark"] ul li.menu a.ativo {
-    border-right: 5px solid #1ab6b6;
+    border-right: 6px solid #1ab6b6;
 }
 
 [data-theme="dark"] .dropdown-toggle {
@@ -650,14 +659,10 @@ hr {
     /*cor da caixa secundaria reflita */
 }
 
-
-/* CAIXA CURIOSIDADES */
-.accordion #content .caixaprincipal#tituloCuriosidade {
-    background-color: #a042e5;
-    /*cor da caixa principal curiosidade*/
-    color: #fffffff6;
-    /*cor da palavra na caixa principal*/
+[data-theme="dark"] #saibamais p {
+    color: #040504;
 }
+
 /* CAIXA CURIOSIDADES */
 .accordion #content .caixaprincipal#tituloCuriosidade {
     background-color: #a042e5;
@@ -668,7 +673,9 @@ hr {
 
 #Curiosidade p {
     color: black;
+    /*cor da caixa secundaria curiosidade */
 }
+
 #Curiosidade {
     background-color: #a02bf529;
     /*cor da caixa secundaria curiosidade */
@@ -683,6 +690,7 @@ hr {
 }
 
 /*  FIM CAIXA CURIOSIDADES */
+
 /* estilo do pointer dos accordion */
 
 .accordion-content {
@@ -795,8 +803,6 @@ o estado inicial de height 0 manteria o texto aparecendo */
         margin-left: 0.5rem;
     }
 }
-/* FIM DO ESTILO DO ACCORDION */
-
 
 /* FIM DO ESTILO DO ACCORDION */
 
@@ -839,9 +845,14 @@ o estado inicial de height 0 manteria o texto aparecendo */
         color: rgb(39, 79, 35);
     }
 
+    ul li.menu a.ativo {
+        border-right: 6px solid #44833D;
+    }
+
     .nav-link {
         display: none;
     }
+
     #img_logo {
         width: 150px;
     }
@@ -861,6 +872,7 @@ form {
         visibility: hidden;
     }
 }
+
 /* ---------------------- fim do menu lateral responsivo --jayron-- ------------------------- */
 
 
@@ -886,7 +898,10 @@ form {
     transform: translateY(0.6px);
     box-shadow: 0px 0px 0px var(--color-ciano2);
 }
+
 /* FIM DO BOTÃO DO MODO ESCURO */
+
+
 /*CONFIGURAÇÃO DE ALGUNS ELEMENTOS NO MODO ESCURO */
 
 [data-theme="dark"] #btn_menu .fa-solid {
@@ -951,12 +966,13 @@ h2,
     border-bottom: 1px solid rgb(185, 185, 185);
     padding-bottom: 20px;
 }
-.subsubtopico{
-color: var(--CorSubSubtopico);
-font-size: 25px;
-border-bottom: 1px solid rgb(185, 185, 185);
-padding-bottom: 10px;
-margin: 20px 0;
+
+.subsubtopico {
+    color: var(--CorSubSubtopico);
+    font-size: 25px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 10px;
+    margin: 20px 0;
 }
 
 [data-theme="dark"] .Subtopico {
@@ -984,7 +1000,8 @@ margin: 20px 0;
     filter: invert(1) grayscale(100%) brightness(200%);
 
 }
-/*FIM DA CONFIGURAÇÃO DO MODO ESCURO (JAMILLE)*/
+
+/*FIM DA CONFIGURAÇÃO DO MODO ESCURO*/
 
 /* EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) */
 .zoom {
@@ -1000,6 +1017,8 @@ margin: 20px 0;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
+    border: 7px solid rgba(0, 0, 0, 0.062);
+    border-top: 0;
 }
 
 .zoom:hover img {
@@ -1138,6 +1157,7 @@ img#imagem-erro {
         }
     }
 }
+
 .imagem {
     text-align: center;
     margin-top: -50px;
@@ -1154,6 +1174,10 @@ img#imagem-erro {
 #header-modal {
     border-bottom: none;
 }
+
+/* FIM DAS CONFIGURAÇÕES DA QUESTÃO DE FIXAÇÃO */
+
+
 /* INÍCIO DO BUTTON BACK TO TOP (JAMILLE) */
 #back_to_top {
     position: fixed;
@@ -1186,7 +1210,6 @@ img#imagem-erro {
     display: grid;
     place-items: center;
 }
-/* FIM DO BUTTON BACK TO TOP (JAMILLE) */
 
 /* FIM DO BUTTON BACK TO TOP (JAMILLE) */
 
@@ -1208,6 +1231,8 @@ img#imagem-erro {
     transition: width 0.5s ease-out;
     z-index: 5;
 }
+
+
 
 /* FOOTER */
 footer {
