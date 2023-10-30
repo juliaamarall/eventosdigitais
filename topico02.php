@@ -43,6 +43,7 @@ include( 'layout/menu.php' );
 <div class = 'mt-5'>
 <h3 class = 'fw-semibold text-secondary'>RESUMO</h3>
 <!-- accordions para a página do tópico 02 -->
+<div class="container">
 <div class = 'accordion' id = 'accordionExample'>
 <div class = 'accordion-item'>
 <h2 class = 'accordion-header'>
@@ -80,6 +81,8 @@ VIRTUAL
 <div class = "accordion-body sem-borda">
 <p>Eventos que acontecem 100% das pessoas participando virtualmente, via tecnologias digitais.</p>
 </div>
+</div>
+
 </div>
 </div>
 </div>
